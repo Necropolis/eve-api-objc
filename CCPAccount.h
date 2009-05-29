@@ -19,6 +19,11 @@
 @property(readwrite, assign) int acctId;
 @property(readwrite, retain) NSString * ltdApiKey;
 @property(readwrite, retain) NSString * ultdApiKey;
+/**
+ * Use <code>setCharacters:nil</code> to force a refresh of the
+ * character list from the API server.
+ */
+@property(readwrite, retain) NSArray * characters;
 
 -(id)initWithAcctId:(int)_acctId
 		  ltdApiKey:(NSString*)_ltdApiKey;
@@ -26,7 +31,7 @@
 		  ltdApiKey:(NSString*)_ltdApiKey
 		 ultdApiKey:(NSString*)_ultdApiKey;
 
--(NSArray*)getCharacters;
+-(NSArray*)characters;
 
 -(void)dealloc;
 

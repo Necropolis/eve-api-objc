@@ -19,12 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DA02F5170FCA844000A06490 /* PBXContainerItemProxy */ = {
+		DA4FC67B0FCF86EE00335715 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DA02F50D0FCA83A900A06490;
-			remoteInfo = unittests;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216 /* eveapi */;
+			remoteInfo = eveapi;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -184,7 +184,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DA02F5180FCA844000A06490 /* PBXTargetDependency */,
 			);
 			name = eveapi;
 			productInstallPath = "$(HOME)/Library/Frameworks";
@@ -204,6 +203,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				DA4FC67C0FCF86EE00335715 /* PBXTargetDependency */,
 			);
 			name = unittests;
 			productName = unittests;
@@ -298,10 +298,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DA02F5180FCA844000A06490 /* PBXTargetDependency */ = {
+		DA4FC67C0FCF86EE00335715 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DA02F50D0FCA83A900A06490 /* unittests */;
-			targetProxy = DA02F5170FCA844000A06490 /* PBXContainerItemProxy */;
+			target = 8DC2EF4F0486A6940098B216 /* eveapi */;
+			targetProxy = DA4FC67B0FCF86EE00335715 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

@@ -5,6 +5,7 @@
 @synthesize acctId;
 @synthesize ltdApiKey;
 @synthesize ultdApiKey;
+@dynamic characters;
 
 -(id)initWithAcctId:(int)_acctId
 		  ltdApiKey:(NSString*)_ltdApiKey {
@@ -22,7 +23,7 @@
 	return self;
 }
 
--(NSArray*)getCharacters {
+-(NSArray*)characters {
 	if(characters!=nil)
 		return characters;
 	NSURL *acctCharUrl = [[NSURL alloc]
