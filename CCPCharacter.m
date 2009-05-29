@@ -4,28 +4,21 @@
 @implementation CCPCharacter
 
 @synthesize characterId;
-@synthesize userId;
-@synthesize ltdApiKey;
-@synthesize ultdApiKey;
+@synthesize acct;
 
 -(id)initWithId:(int)_characterId
-		 userId:(int)_userId
-	  ltdapiKey:(NSString*)_ltdApiKey
-	 ultdApiKey:(NSString*)_ultdApiKey {
+		   acct:(CCPAccount*)_acct {
 	[super init];
 	
 	[self setCharacterId:_characterId];
-	[self setUserId:_userId];
-	[self setLtdApiKey:_ltdApiKey];
-	[self setUltdApiKey:_ultdApiKey];
+	[self setAcct:_acct];
 	
 	return self;
 }
 
 -(void)dealloc {
 	
-	[ltdApiKey release];
-	[ultdApiKey release];
+	[acct release];
 	
 	[super dealloc];
 }

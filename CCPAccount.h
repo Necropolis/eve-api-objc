@@ -12,7 +12,9 @@
 	NSString *ltdApiKey;
 	NSString *ultdApiKey;
 	
-	NSArray *characters;
+	NSMutableArray *characters;
+	
+	@private BOOL isParsing;
 	
 }
 
@@ -23,7 +25,7 @@
  * Use <code>setCharacters:nil</code> to force a refresh of the
  * character list from the API server.
  */
-@property(readwrite, retain) NSArray * characters;
+@property(readwrite, retain) NSMutableArray * characters;
 
 -(id)initWithAcctId:(int)_acctId
 		  ltdApiKey:(NSString*)_ltdApiKey;
@@ -32,7 +34,13 @@
 		 ultdApiKey:(NSString*)_ultdApiKey;
 -(id)initWithCoder:(NSCoder*)coder;
 
--(NSArray*)characters;
+-(NSMutableArray*)characters;
+
+-(void)parser:(NSXMLParser*)parser didStartElement:(NSString *)elementName 
+ namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName 
+   attributes:(NSDictionary *)attributeDict;
+-(void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName 
+  namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName;
 
 -(void)encodeWithCoder:(NSCoder*)coder;
 

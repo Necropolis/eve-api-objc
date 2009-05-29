@@ -1,22 +1,17 @@
 #import <Cocoa/Cocoa.h>
 
+@class CCPAccount;
+
 @interface CCPCharacter : NSObject {
 	int characterId;
-	int userId;
-	NSString *ltdApiKey;
-	NSString *ultdApiKey;
+	CCPAccount *acct;
 }
 
 @property(readwrite, assign) int characterId;
-@property(readwrite, assign) int userId;
-@property(readwrite, retain) NSString * ltdApiKey;
-@property(readwrite, retain) NSString * ultdApiKey;
+@property(readwrite, retain) CCPAccount * acct;
 
 -(id)initWithId:(int)_characterId
-		 userId:(int)_userId
-	  ltdapiKey:(NSString*)_ltdApiKey
-	 ultdApiKey:(NSString*)_ultdApiKey
-		  error:(NSError**)err;
+		   acct:(CCPAccount*)_acct;
 
 -(void)dealloc;
 

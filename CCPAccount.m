@@ -17,9 +17,12 @@
 		  ltdApiKey:(NSString*)_ltdApiKey
 		 ultdApiKey:(NSString*)_ultdApiKey {
 	[super init];
+	
+	isParsing = NO;
 	[self setAcctId:_acctId];
 	[self setLtdApiKey:_ltdApiKey];
 	[self setUltdApiKey:_ultdApiKey];
+	
 	return self;
 }
 -(id)initWithCoder:(NSCoder*)coder {
@@ -40,39 +43,50 @@
 	return self;
 }
 
--(NSArray*)characters {
+-(NSMutableArray*)characters {
 	if(characters!=nil)
 		return characters;
 	NSURL *acctCharUrl = [[NSURL alloc]
 						  initWithString:[NSString stringWithFormat:
 										  @"http://api.eve-online.com/account/Characters.xml.aspx?userID=%d&apiKey=%@",
 										  acctId, ltdApiKey]];
-	NSError *fetchError = nil;
-	NSXMLDocument *doc = [[NSXMLDocument alloc] initWithContentsOfURL:acctCharUrl 
-															  options:NSXMLDocumentValidate 
-																error:&fetchError];
+	
+	NSXMLParser *parser = [[NSXMLParser alloc] initWithContentsOfURL:acctCharUrl];
+	
 	[acctCharUrl release];
-	if(fetchError)
-		return nil;
-	NSArray *na = [doc nodesForXPath:@"eveapi/result/rowset/row" 
-							   error:&fetchError];
-	if(fetchError||[na count]==0)
-		return nil;
-	NSMutableArray *toReturn = [[NSMutableArray alloc] init];
 	
-	int tmpId;
+	if(characters)
+		[characters release];
+	characters = [[NSMutableArray alloc] init];
+	[parser setDelegate:self];
 	
-	for( int i = 0 ; i < [na count] ; ++i ) {
-		tmpId = [[[[na objectAtIndex:i] attributeForName:@"characterID"] stringValue] integerValue];
-		[toReturn addObject:[[CCPCharacter alloc] initWithId:tmpId
-														acct:self]];
+	if([parser parse])
+		return characters;
+	else {
+		return nil;
 	}
-	
-	[doc release];
-	characters = [NSArray arrayWithArray:toReturn];
-	[toReturn release];
-	return characters;
-	
+}
+
+-(void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName 
+		namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName 
+		attributes:(NSDictionary *)attributeDict {
+	if(isParsing&&[elementName isEqualToString:@"row"]) {
+		[characters addObject:[[CCPCharacter alloc] initWithId:[[attributeDict valueForKey:@"characterID"] intValue]
+														  acct:self]];
+		return;
+	}
+	if([elementName isEqualToString:@"rowset"]) {
+		if([[attributeDict valueForKey:@"name"] isEqualToString:@"characters"])
+			isParsing = YES;
+		return;
+	}
+}
+
+-(void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName 
+		namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName {
+	if([elementName isEqualToString:@"rowset"]&&isParsing)
+		isParsing = NO;
+	return;
 }
 
 -(void)encodeWithCoder:(NSCoder*)coder {
