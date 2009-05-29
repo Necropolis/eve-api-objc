@@ -21,17 +21,24 @@
 	for(NSMutableString *ln in tokenizedString) {
 		if([ln characterAtIndex:0]=='#')
 			continue;
-		if([ln length]<14)
+		
+		if([ln length]<4)
 			continue;
-		if([[ln substringToIndex:3] isEqualToString:@"uid:"]) {
+		if([[ln substringToIndex:4] isEqualToString:@"uid:"]) {
 			acctId = [[ln substringFromIndex:3] intValue];
 		}
-		if([[ln substringToIndex:9] isEqualToString:@"ltdApiKey:"]) {
+		
+		if([ln length]<10)
+			continue;
+		if([[ln substringToIndex:10] isEqualToString:@"ltdApiKey:"]) {
 			ltdApiKey = [ln substringFromIndex:9];
 			if([ltdApiKey characterAtIndex:0]==' ')
 				ltdApiKey = [ltdApiKey substringFromIndex:1];
 		}
-		if([[ln substringToIndex:10] isEqualToString:@"ultdApiKey:"]) {
+		
+		if([ln length]<11)
+			continue;
+		if([[ln substringToIndex:11] isEqualToString:@"ultdApiKey:"]) {
 			ultdApiKey = [ln substringFromIndex:10];
 			if([ultdApiKey characterAtIndex:0]==' ')
 				ultdApiKey = [ultdApiKey substringFromIndex:1];
