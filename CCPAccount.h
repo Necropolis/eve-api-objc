@@ -6,7 +6,7 @@
  * A simple class which returns arrays of CCPCharacters.  This is much
  * simpler than requesting that the user supply a character ID.
  */
-@interface CCPAccount : NSObject {
+@interface CCPAccount : NSObject<NSCoding> {
 	
 	int acctId;
 	NSString *ltdApiKey;
@@ -30,8 +30,11 @@
 -(id)initWithAcctId:(int)_acctId
 		  ltdApiKey:(NSString*)_ltdApiKey
 		 ultdApiKey:(NSString*)_ultdApiKey;
+-(id)initWithCoder:(NSCoder*)coder;
 
 -(NSArray*)characters;
+
+-(void)encodeWithCoder:(NSCoder*)coder;
 
 -(void)dealloc;
 

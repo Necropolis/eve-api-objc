@@ -22,6 +22,23 @@
 	[self setUltdApiKey:_ultdApiKey];
 	return self;
 }
+-(id)initWithCoder:(NSCoder*)coder {
+	[super init];
+	if([coder allowsKeyedCoding]) {
+		acctId = [coder decodeIntForKey:@"CCPAccount_acctId"];
+		ltdApiKey = [[coder decodeObjectForKey:@"CCPAccount_ltdApiKey"] retain];
+		ultdApiKey = [[coder decodeObjectForKey:@"CCPAccount_ultdApiKey"] retain];
+		// TODO: When CCPCharacter is NSCoding Compliant
+		//characters = [[coder decodeObjectForKey:@"CCPAccount_characters"] retain];
+	} else {
+		[coder decodeValueOfObjCType:@encode(int) at:&acctId];
+		ltdApiKey = [[coder decodeObject] retain];
+		ultdApiKey = [[coder decodeObject] retain];
+		// TODO: When CCPCharacter is NSCoding compliant
+		//characters = [[coder decodeObject] retain];
+	}
+	return self;
+}
 
 -(NSArray*)characters {
 	if(characters!=nil)
@@ -48,10 +65,7 @@
 	for( int i = 0 ; i < [na count] ; ++i ) {
 		tmpId = [[[[na objectAtIndex:i] attributeForName:@"characterID"] stringValue] integerValue];
 		[toReturn addObject:[[CCPCharacter alloc] initWithId:tmpId
-													  userId:acctId
-												   ltdapiKey:ltdApiKey
-												  ultdApiKey:@""
-													   error:&fetchError]];
+														acct:self]];
 	}
 	
 	[doc release];
@@ -59,6 +73,22 @@
 	[toReturn release];
 	return characters;
 	
+}
+
+-(void)encodeWithCoder:(NSCoder*)coder {
+	if([coder allowsKeyedCoding]) {
+		[coder encodeInt:[self acctId] forKey:@"CCPAccount_acctId"];
+		[coder encodeObject:[self ltdApiKey] forKey:@"CCPAccount_ltdApiKey"];
+		[coder encodeObject:[self ultdApiKey] forKey:@"CCPAccount_ultdApiKey"];
+		// TODO: When CCPCharacter is NSCoding Compliant
+		//[coder encodeObject:characters forKey:@"CCPAccount_characters"];
+	} else {
+		[coder encodeValueOfObjCType:@encode(int) at:&acctId];
+		[coder encodeObject:[self ltdApiKey]];
+		[coder encodeObject:[self ultdApiKey]];
+		// TODO: When CCPCharacter is NSCoding compliant
+		//[coder encodeObject:characters];
+	}
 }
 
 -(void)dealloc {

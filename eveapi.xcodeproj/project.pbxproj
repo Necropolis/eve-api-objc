@@ -14,6 +14,7 @@
 		DA02F4CF0FCA796500A06490 /* doxygen.config in Resources */ = {isa = PBXBuildFile; fileRef = DA02F4CE0FCA796500A06490 /* doxygen.config */; };
 		DA02F5150FCA83BA00A06490 /* eveapi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* eveapi.framework */; };
 		DA02F52A0FCA84E600A06490 /* CCPAccountTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DA02F5290FCA84E600A06490 /* CCPAccountTest.m */; };
+		DA4FC6C40FCFC5CA00335715 /* testAcct in Resources */ = {isa = PBXBuildFile; fileRef = DA4FC6C30FCFC5CA00335715 /* testAcct */; };
 		DAB82A9B0FC69BA300F67345 /* CCPAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = DAB82A990FC69BA300F67345 /* CCPAccount.h */; };
 		DAB82A9C0FC69BA300F67345 /* CCPAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB82A9A0FC69BA300F67345 /* CCPAccount.m */; };
 /* End PBXBuildFile section */
@@ -44,6 +45,8 @@
 		DA02F50F0FCA83A900A06490 /* unittests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "unittests-Info.plist"; sourceTree = "<group>"; };
 		DA02F5280FCA84E600A06490 /* CCPAccountTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPAccountTest.h; sourceTree = "<group>"; };
 		DA02F5290FCA84E600A06490 /* CCPAccountTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPAccountTest.m; sourceTree = "<group>"; };
+		DA4FC6C30FCFC5CA00335715 /* testAcct */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testAcct; sourceTree = "<group>"; };
+		DA4FC6C90FCFCF8B00335715 /* testAcct.example */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testAcct.example; sourceTree = "<group>"; };
 		DAB82A990FC69BA300F67345 /* CCPAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPAccount.h; sourceTree = "<group>"; };
 		DAB82A9A0FC69BA300F67345 /* CCPAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPAccount.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,6 +105,8 @@
 		089C1665FE841158C02AAC07 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DA4FC6C90FCFCF8B00335715 /* testAcct.example */,
+				DA4FC6C30FCFC5CA00335715 /* testAcct */,
 				8DC2EF5A0486A6940098B216 /* Info.plist */,
 				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
 				DA02F50F0FCA83A900A06490 /* unittests-Info.plist */,
@@ -243,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA4FC6C40FCFC5CA00335715 /* testAcct in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

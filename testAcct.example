@@ -1,0 +1,8 @@
+# template test data file - fill in your own account information
+# here.  If a line starts with # it will be ignored.
+# the file must be named "testAcct" otherwise the unit tests will not
+# find it.
+uid:
+ltdApiKey:
+ultdApiKey:
+# must end with a newline or a comment line
