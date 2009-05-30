@@ -108,7 +108,7 @@
 -(void)dealloc {
 	[self setLtdApiKey:nil];
 	[self setUltdApiKey:nil];
-	if(characters!=nil)
+	if(characters)
 		[characters release];
 	[super dealloc];
 }
