@@ -1,11 +1,3 @@
-//
-//  TestInfoGetter.m
-//  eveapi
-//
-//  Created by Chris Miller on 5/31/09.
-//  Copyright 2009 __MyCompanyName__. All rights reserved.
-//
-
 #import "TestInfoGetter.h"
 
 
@@ -37,13 +29,13 @@
 		if([ln length]<4)
 			continue;
 		if([[ln substringToIndex:4] isEqualToString:@"uid:"]) {
-			acctId = [[ln substringFromIndex:3] intValue];
+			acctId = [[ln substringFromIndex:4] intValue];
 		}
 		
 		if([ln length]<10)
 			continue;
 		if([[ln substringToIndex:10] isEqualToString:@"ltdApiKey:"]) {
-			ltdApiKey = [ln substringFromIndex:9];
+			ltdApiKey = [ln substringFromIndex:10];
 			if([ltdApiKey characterAtIndex:0]==' ')
 				ltdApiKey = [ltdApiKey substringFromIndex:1];
 		}
@@ -51,7 +43,7 @@
 		if([ln length]<11)
 			continue;
 		if([[ln substringToIndex:11] isEqualToString:@"ultdApiKey:"]) {
-			ultdApiKey = [ln substringFromIndex:10];
+			ultdApiKey = [ln substringFromIndex:11];
 			if([ultdApiKey characterAtIndex:0]==' ')
 				ultdApiKey = [ultdApiKey substringFromIndex:1];
 		}

@@ -42,12 +42,13 @@
 }
 
 -(NSMutableArray*)characters {
+	NSLog(@"test");
 	if(characters!=nil)
 		return characters;
 	NSURL *acctCharUrl = [[NSURL alloc]
 						  initWithString:[NSString stringWithFormat:
 										  @"http://api.eve-online.com/account/Characters.xml.aspx?userID=%d&apiKey=%@",
-										  acctId, ltdApiKey]];
+										  acctId, [self ltdApiKey]]];
 	
 	NSXMLParser *parser = [[NSXMLParser alloc] initWithContentsOfURL:acctCharUrl];
 	
@@ -60,9 +61,8 @@
 	
 	if([parser parse])
 		return characters;
-	else {
+	else
 		return nil;
-	}
 }
 
 -(void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName 

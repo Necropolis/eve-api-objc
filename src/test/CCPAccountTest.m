@@ -8,9 +8,14 @@
 }
 
 -(void)testCharListRetrieval {
-	
+	NSLog(@"Beginning character list retrieval test");
+	NSMutableArray *characters = [testAcct characters];
+	STAssertTrue([characters count]>0,
+				 @"Given account has no characters!");
+	[characters release];
 }
 -(void)testCoderSupport {
+	NSLog(@"Beginning coder support test");
 	NSString *archivePath = [NSTemporaryDirectory() 
 							 stringByAppendingPathComponent:@"testAcct.archive"]; 
 	[NSKeyedArchiver archiveRootObject:testAcct
@@ -24,7 +29,6 @@
 				 @"Account limited API keys differ after archiving");
 	STAssertTrue([[unarchivedAcct ultdApiKey] isEqualToString:[testAcct ultdApiKey]],
 				 @"Account unlimited API keys differ after archiving");
-	// TODO: Add tests for characters when CCPCharacter is NSCoding compliant
 }
 
 -(void)tearDown {
