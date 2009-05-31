@@ -280,6 +280,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -324,8 +326,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
-									<integer>1</integer>
+									<integer>8</integer>
+									<integer>6</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -360,8 +362,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -379,7 +379,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DA4FC7500FD0AE9100335715</string>
+										<string>DA4FC76E0FD2630500335715</string>
 										<key>history</key>
 										<array>
 											<string>DAB82ACB0FC69F8200F67345</string>
@@ -389,18 +389,14 @@
 											<string>DA4FC70F0FD09BD800335715</string>
 											<string>DA4FC7100FD09BD800335715</string>
 											<string>DA4FC7110FD09BD800335715</string>
-											<string>DA4FC7120FD09BD800335715</string>
-											<string>DA4FC72D0FD0A2D900335715</string>
-											<string>DA4FC7450FD0A80100335715</string>
-											<string>DA4FC7460FD0A80100335715</string>
+											<string>DA4FC7610FD2630500335715</string>
+											<string>DA4FC7630FD2630500335715</string>
 										</array>
 										<key>prevStack</key>
 										<array>
 											<string>DAB82ACF0FC69F8200F67345</string>
 											<string>DAB82AD00FC69F8200F67345</string>
 											<string>DA02F4C70FCA794800A06490</string>
-											<string>DA02F4C80FCA794800A06490</string>
-											<string>DA02F4C90FCA794800A06490</string>
 											<string>DA02F5590FCE845500A06490</string>
 											<string>DA02F55A0FCE845500A06490</string>
 											<string>DA02F55C0FCE845500A06490</string>
@@ -434,14 +430,9 @@
 											<string>DA4FC7210FD09BD800335715</string>
 											<string>DA4FC7220FD09BD800335715</string>
 											<string>DA4FC7230FD09BD800335715</string>
-											<string>DA4FC7240FD09BD800335715</string>
 											<string>DA4FC7250FD09BD800335715</string>
-											<string>DA4FC7260FD09BD800335715</string>
-											<string>DA4FC7270FD09BD800335715</string>
-											<string>DA4FC7280FD09BD800335715</string>
 											<string>DA4FC7290FD09BD800335715</string>
 											<string>DA4FC72A0FD09BD800335715</string>
-											<string>DA4FC7300FD0A2D900335715</string>
 											<string>DA4FC7310FD0A2D900335715</string>
 											<string>DA4FC7320FD0A2D900335715</string>
 											<string>DA4FC7380FD0A68F00335715</string>
@@ -454,6 +445,15 @@
 											<string>DA4FC74C0FD0A80100335715</string>
 											<string>DA4FC74D0FD0A80100335715</string>
 											<string>DA4FC74E0FD0A80100335715</string>
+											<string>DA4FC7640FD2630500335715</string>
+											<string>DA4FC7650FD2630500335715</string>
+											<string>DA4FC7660FD2630500335715</string>
+											<string>DA4FC7670FD2630500335715</string>
+											<string>DA4FC7680FD2630500335715</string>
+											<string>DA4FC7690FD2630500335715</string>
+											<string>DA4FC76A0FD2630500335715</string>
+											<string>DA4FC76B0FD2630500335715</string>
+											<string>DA4FC76C0FD2630500335715</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -632,7 +632,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>265334417.62865001</real>
+	<real>265446149.70349401</real>
 	<key>ToolbarDisplayMode</key>
 	<integer>1</integer>
 	<key>ToolbarIsVisible</key>
@@ -674,7 +674,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CCPAccount.m</string>
+								<string>CCPAccount.h</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>

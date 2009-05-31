@@ -38,17 +38,17 @@
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* eveapi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = eveapi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
-		DA02F4BD0FCA726900A06490 /* CCPCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPCharacter.h; sourceTree = "<group>"; };
-		DA02F4BE0FCA726900A06490 /* CCPCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPCharacter.m; sourceTree = "<group>"; };
+		DA02F4BD0FCA726900A06490 /* CCPCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCPCharacter.h; path = src/com.eveonline.api/CCPCharacter.h; sourceTree = "<group>"; };
+		DA02F4BE0FCA726900A06490 /* CCPCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCPCharacter.m; path = src/com.eveonline.api/CCPCharacter.m; sourceTree = "<group>"; };
 		DA02F4CE0FCA796500A06490 /* doxygen.config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = doxygen.config; sourceTree = "<group>"; };
 		DA02F50E0FCA83A900A06490 /* unittests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = unittests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA02F50F0FCA83A900A06490 /* unittests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "unittests-Info.plist"; sourceTree = "<group>"; };
-		DA02F5280FCA84E600A06490 /* CCPAccountTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPAccountTest.h; sourceTree = "<group>"; };
-		DA02F5290FCA84E600A06490 /* CCPAccountTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPAccountTest.m; sourceTree = "<group>"; };
+		DA02F5280FCA84E600A06490 /* CCPAccountTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCPAccountTest.h; path = src/test/CCPAccountTest.h; sourceTree = "<group>"; };
+		DA02F5290FCA84E600A06490 /* CCPAccountTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCPAccountTest.m; path = src/test/CCPAccountTest.m; sourceTree = "<group>"; };
 		DA4FC6C30FCFC5CA00335715 /* testAcct */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testAcct; sourceTree = "<group>"; };
 		DA4FC6C90FCFCF8B00335715 /* testAcct.example */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testAcct.example; sourceTree = "<group>"; };
-		DAB82A990FC69BA300F67345 /* CCPAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPAccount.h; sourceTree = "<group>"; };
-		DAB82A9A0FC69BA300F67345 /* CCPAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPAccount.m; sourceTree = "<group>"; };
+		DAB82A990FC69BA300F67345 /* CCPAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCPAccount.h; path = src/com.eveonline.api/CCPAccount.h; sourceTree = "<group>"; };
+		DAB82A9A0FC69BA300F67345 /* CCPAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCPAccount.m; path = src/com.eveonline.api/CCPAccount.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
