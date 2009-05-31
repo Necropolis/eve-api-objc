@@ -15,6 +15,7 @@
 		DA02F5150FCA83BA00A06490 /* eveapi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* eveapi.framework */; };
 		DA02F52A0FCA84E600A06490 /* CCPAccountTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DA02F5290FCA84E600A06490 /* CCPAccountTest.m */; };
 		DA4FC6C40FCFC5CA00335715 /* testAcct in Resources */ = {isa = PBXBuildFile; fileRef = DA4FC6C30FCFC5CA00335715 /* testAcct */; };
+		DA6D1DF90FD263CE007E642C /* TestInfoGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6D1DF80FD263CE007E642C /* TestInfoGetter.m */; };
 		DAB82A9B0FC69BA300F67345 /* CCPAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = DAB82A990FC69BA300F67345 /* CCPAccount.h */; };
 		DAB82A9C0FC69BA300F67345 /* CCPAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB82A9A0FC69BA300F67345 /* CCPAccount.m */; };
 /* End PBXBuildFile section */
@@ -24,7 +25,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8DC2EF4F0486A6940098B216 /* eveapi */;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
 			remoteInfo = eveapi;
 		};
 /* End PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		DA02F5290FCA84E600A06490 /* CCPAccountTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCPAccountTest.m; path = src/test/CCPAccountTest.m; sourceTree = "<group>"; };
 		DA4FC6C30FCFC5CA00335715 /* testAcct */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testAcct; sourceTree = "<group>"; };
 		DA4FC6C90FCFCF8B00335715 /* testAcct.example */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testAcct.example; sourceTree = "<group>"; };
+		DA6D1DF70FD263CE007E642C /* TestInfoGetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestInfoGetter.h; sourceTree = "<group>"; };
+		DA6D1DF80FD263CE007E642C /* TestInfoGetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestInfoGetter.m; sourceTree = "<group>"; };
 		DAB82A990FC69BA300F67345 /* CCPAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCPAccount.h; path = src/com.eveonline.api/CCPAccount.h; sourceTree = "<group>"; };
 		DAB82A9A0FC69BA300F67345 /* CCPAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCPAccount.m; path = src/com.eveonline.api/CCPAccount.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -157,6 +160,8 @@
 			children = (
 				DA02F5280FCA84E600A06490 /* CCPAccountTest.h */,
 				DA02F5290FCA84E600A06490 /* CCPAccountTest.m */,
+				DA6D1DF70FD263CE007E642C /* TestInfoGetter.h */,
+				DA6D1DF80FD263CE007E642C /* TestInfoGetter.m */,
 			);
 			name = "Test Cases";
 			sourceTree = "<group>";
@@ -298,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA02F52A0FCA84E600A06490 /* CCPAccountTest.m in Sources */,
+				DA6D1DF90FD263CE007E642C /* TestInfoGetter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

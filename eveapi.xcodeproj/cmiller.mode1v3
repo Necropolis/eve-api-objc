@@ -280,8 +280,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -320,13 +318,13 @@
 								<string>0867D691FE84028FC02AAC07</string>
 								<string>08FB77AEFE84172EC02AAC07</string>
 								<string>DA02F52E0FCA84FD00A06490</string>
+								<string>32C88DFF0371C24200C91783</string>
 								<string>089C1665FE841158C02AAC07</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>8</integer>
 									<integer>6</integer>
 									<integer>0</integer>
 								</array>
@@ -362,12 +360,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CCPAccount.m</string>
+								<string>eveapi_Prefix.pch</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -375,22 +375,24 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>CCPAccount.m</string>
+										<string>eveapi_Prefix.pch</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DA4FC76E0FD2630500335715</string>
+										<string>DA4FC77E0FD2638D00335715</string>
 										<key>history</key>
 										<array>
-											<string>DAB82ACB0FC69F8200F67345</string>
 											<string>DA02F5420FCE845500A06490</string>
 											<string>DA02F5430FCE845500A06490</string>
-											<string>DA4FC70E0FD09BD800335715</string>
 											<string>DA4FC70F0FD09BD800335715</string>
 											<string>DA4FC7100FD09BD800335715</string>
-											<string>DA4FC7110FD09BD800335715</string>
-											<string>DA4FC7610FD2630500335715</string>
-											<string>DA4FC7630FD2630500335715</string>
+											<string>DA4FC7700FD2638D00335715</string>
+											<string>DA4FC7710FD2638D00335715</string>
+											<string>DA4FC7720FD2638D00335715</string>
+											<string>DA4FC7730FD2638D00335715</string>
+											<string>DA4FC7740FD2638D00335715</string>
+											<string>DA4FC7750FD2638D00335715</string>
+											<string>DAB82ACB0FC69F8200F67345</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -453,7 +455,14 @@
 											<string>DA4FC7690FD2630500335715</string>
 											<string>DA4FC76A0FD2630500335715</string>
 											<string>DA4FC76B0FD2630500335715</string>
-											<string>DA4FC76C0FD2630500335715</string>
+											<string>DA4FC7760FD2638D00335715</string>
+											<string>DA4FC7770FD2638D00335715</string>
+											<string>DA4FC7780FD2638D00335715</string>
+											<string>DA4FC7790FD2638D00335715</string>
+											<string>DA4FC77A0FD2638D00335715</string>
+											<string>DA4FC77B0FD2638D00335715</string>
+											<string>DA4FC77C0FD2638D00335715</string>
+											<string>DA4FC77D0FD2638D00335715</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -632,7 +641,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>265446149.70349401</real>
+	<real>265446285.408898</real>
 	<key>ToolbarDisplayMode</key>
 	<integer>1</integer>
 	<key>ToolbarIsVisible</key>
