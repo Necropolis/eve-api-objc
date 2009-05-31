@@ -2,7 +2,7 @@
 
 @class CCPAccount;
 
-@interface CCPCharacter : NSObject {
+@interface CCPCharacter : NSObject<NSCoding> {
 	int characterId;
 	CCPAccount *acct;
 }
@@ -12,6 +12,9 @@
 
 -(id)initWithId:(int)_characterId
 		   acct:(CCPAccount*)_acct;
+-(id)initWithCoder:(NSCoder*)coder;
+
+-(void)encodeWithCoder:(NSCoder*)coder;
 
 -(void)dealloc;
 

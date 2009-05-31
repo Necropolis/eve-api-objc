@@ -31,14 +31,12 @@
 		acctId = [coder decodeIntForKey:@"CCPAccount_acctId"];
 		ltdApiKey = [[coder decodeObjectForKey:@"CCPAccount_ltdApiKey"] retain];
 		ultdApiKey = [[coder decodeObjectForKey:@"CCPAccount_ultdApiKey"] retain];
-		// TODO: When CCPCharacter is NSCoding Compliant
-		//characters = [[coder decodeObjectForKey:@"CCPAccount_characters"] retain];
+		characters = [[coder decodeObjectForKey:@"CCPAccount_characters"] retain];
 	} else {
 		[coder decodeValueOfObjCType:@encode(int) at:&acctId];
 		ltdApiKey = [[coder decodeObject] retain];
 		ultdApiKey = [[coder decodeObject] retain];
-		// TODO: When CCPCharacter is NSCoding compliant
-		//characters = [[coder decodeObject] retain];
+		characters = [[coder decodeObject] retain];
 	}
 	return self;
 }
@@ -94,14 +92,12 @@
 		[coder encodeInt:[self acctId] forKey:@"CCPAccount_acctId"];
 		[coder encodeObject:[self ltdApiKey] forKey:@"CCPAccount_ltdApiKey"];
 		[coder encodeObject:[self ultdApiKey] forKey:@"CCPAccount_ultdApiKey"];
-		// TODO: When CCPCharacter is NSCoding Compliant
-		//[coder encodeObject:characters forKey:@"CCPAccount_characters"];
+		[coder encodeObject:characters forKey:@"CCPAccount_characters"];
 	} else {
 		[coder encodeValueOfObjCType:@encode(int) at:&acctId];
 		[coder encodeObject:[self ltdApiKey]];
 		[coder encodeObject:[self ultdApiKey]];
-		// TODO: When CCPCharacter is NSCoding compliant
-		//[coder encodeObject:characters];
+		[coder encodeObject:characters];
 	}
 }
 
