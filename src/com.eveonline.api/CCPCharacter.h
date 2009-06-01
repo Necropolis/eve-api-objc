@@ -2,6 +2,14 @@
 
 @class CCPAccount;
 
+/**
+ * Functions as a simple structure of data related to a character sheet.  Also
+ * abstracts the tasks of retrieving specific information about training skills,
+ * training queue, certificates, corporation information, and other such information.
+ *
+ * This other information is provided as a link to that specifc EVE API object
+ * and is not precisely under the direct control of CCPCharacter.
+ */
 @interface CCPCharacter : NSObject<NSCoding> {
 	int characterId;
 	CCPAccount *acct;
@@ -19,7 +27,6 @@
 	int cloneSkillPoints;
 	
 	double balance;
-	
 }
 
 @property(readwrite, assign) int characterId;
