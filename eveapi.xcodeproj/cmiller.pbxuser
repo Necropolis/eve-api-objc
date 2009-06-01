@@ -151,6 +151,10 @@
 			DAFA5D4A0FD3B4F0004B7881 /* PBXTextBookmark */ = DAFA5D4A0FD3B4F0004B7881 /* PBXTextBookmark */;
 			DAFA5D4B0FD3B4F0004B7881 /* PBXTextBookmark */ = DAFA5D4B0FD3B4F0004B7881 /* PBXTextBookmark */;
 			DAFA5D4C0FD3B4F0004B7881 /* PBXTextBookmark */ = DAFA5D4C0FD3B4F0004B7881 /* PBXTextBookmark */;
+			DAFA5D500FD3B60E004B7881 /* PBXTextBookmark */ = DAFA5D500FD3B60E004B7881 /* PBXTextBookmark */;
+			DAFA5D510FD3B60E004B7881 /* PBXTextBookmark */ = DAFA5D510FD3B60E004B7881 /* PBXTextBookmark */;
+			DAFA5D520FD3B60E004B7881 /* PBXTextBookmark */ = DAFA5D520FD3B60E004B7881 /* PBXTextBookmark */;
+			DAFA5D530FD3B60E004B7881 /* PBXTextBookmark */ = DAFA5D530FD3B60E004B7881 /* PBXTextBookmark */;
 		};
 		sourceControlManager = DAB82A970FC69B3700F67345 /* Source Control */;
 		userBuildSettings = {
@@ -168,9 +172,9 @@
 	};
 	DA02F4BD0FCA726900A06490 /* CCPCharacter.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 928}}";
-			sepNavSelRange = "{442, 0}";
-			sepNavVisRange = "{728, 776}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1008}}";
+			sepNavSelRange = "{761, 0}";
+			sepNavVisRange = "{1047, 776}";
 			sepNavWindowFrame = "{{38, 194}, {750, 558}}";
 		};
 	};
@@ -327,7 +331,7 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 17";
 		rLen = 0;
-		rLoc = 1480;
+		rLoc = 1799;
 		rType = 0;
 		vrLen = 391;
 		vrLoc = 0;
@@ -751,7 +755,7 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 6";
 		rLen = 0;
-		rLoc = 511;
+		rLoc = 830;
 		rType = 0;
 		vrLen = 391;
 		vrLoc = 0;
@@ -761,7 +765,7 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 6";
 		rLen = 0;
-		rLoc = 511;
+		rLoc = 830;
 		rType = 0;
 		vrLen = 391;
 		vrLoc = 0;
@@ -898,7 +902,7 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 11";
 		rLen = 0;
-		rLoc = 442;
+		rLoc = 761;
 		rType = 0;
 		vrLen = 776;
 		vrLoc = 728;
@@ -928,7 +932,7 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 65";
 		rLen = 0;
-		rLoc = 985;
+		rLoc = 1304;
 		rType = 0;
 		vrLen = 777;
 		vrLoc = 1308;
@@ -948,7 +952,7 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 62";
 		rLen = 495;
-		rLoc = 843;
+		rLoc = 1162;
 		rType = 0;
 		vrLen = 800;
 		vrLoc = 1284;
@@ -988,7 +992,7 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 62";
 		rLen = 496;
-		rLoc = 843;
+		rLoc = 1162;
 		rType = 0;
 		vrLen = 800;
 		vrLoc = 1284;
@@ -1008,7 +1012,7 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 53";
 		rLen = 0;
-		rLoc = 707;
+		rLoc = 1026;
 		rType = 0;
 		vrLen = 724;
 		vrLoc = 1000;
@@ -1048,7 +1052,7 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 11";
 		rLen = 0;
-		rLoc = 442;
+		rLoc = 761;
 		rType = 0;
 		vrLen = 776;
 		vrLoc = 728;
@@ -1072,5 +1076,45 @@
 		rType = 0;
 		vrLen = 895;
 		vrLoc = 5640;
+	};
+	DAFA5D500FD3B60E004B7881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA02F4CE0FCA796500A06490 /* doxygen.config */;
+		name = "doxygen.config: 229";
+		rLen = 0;
+		rLoc = 7622;
+		rType = 0;
+		vrLen = 895;
+		vrLoc = 5640;
+	};
+	DAFA5D510FD3B60E004B7881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
+		name = "CCPCharacter.h: 11";
+		rLen = 0;
+		rLoc = 761;
+		rType = 0;
+		vrLen = 778;
+		vrLoc = 726;
+	};
+	DAFA5D520FD3B60E004B7881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA02F4CE0FCA796500A06490 /* doxygen.config */;
+		name = "doxygen.config: 229";
+		rLen = 0;
+		rLoc = 7622;
+		rType = 0;
+		vrLen = 895;
+		vrLoc = 5640;
+	};
+	DAFA5D530FD3B60E004B7881 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
+		name = "CCPCharacter.h: 16";
+		rLen = 0;
+		rLoc = 761;
+		rType = 0;
+		vrLen = 776;
+		vrLoc = 1047;
 	};
 }

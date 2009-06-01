@@ -9,6 +9,11 @@
  *
  * This other information is provided as a link to that specifc EVE API object
  * and is not precisely under the direct control of CCPCharacter.
+ * 
+ * Note that by calling the accessor selector you will initiate the API's process
+ * of querying the API server if it does not already have cached information about
+ * the character.  If it already has cached information it will use this indefinitely
+ * until you clear the cache by using the appropraite selector.
  */
 @interface CCPCharacter : NSObject<NSCoding> {
 	int characterId;
