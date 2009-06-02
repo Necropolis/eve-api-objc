@@ -4,7 +4,7 @@
 		activeBuildConfigurationName = Debug;
 		activeTarget = DA02F50D0FCA83A900A06490 /* unittests */;
 		addToTargets = (
-			8DC2EF4F0486A6940098B216 /* eveapi */,
+			DA02F50D0FCA83A900A06490 /* unittests */,
 		);
 		breakpoints = (
 		);
@@ -130,17 +130,17 @@
 	};
 	DA02F4BD0FCA726900A06490 /* CCPCharacter.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1020, 1840}}";
-			sepNavSelRange = "{3392, 596}";
-			sepNavVisRange = "{3315, 681}";
+			sepNavIntBoundsRect = "{{0, 0}, {1020, 1456}}";
+			sepNavSelRange = "{65, 0}";
+			sepNavVisRange = "{0, 1530}";
 			sepNavWindowFrame = "{{38, 194}, {750, 558}}";
 		};
 	};
 	DA02F4BE0FCA726900A06490 /* CCPCharacter.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 2816}}";
-			sepNavSelRange = "{2564, 0}";
-			sepNavVisRange = "{2067, 1061}";
+			sepNavIntBoundsRect = "{{0, 0}, {689, 2512}}";
+			sepNavSelRange = "{81, 0}";
+			sepNavVisRange = "{0, 200}";
 		};
 	};
 	DA02F4C70FCA794800A06490 /* PBXTextBookmark */ = {
@@ -172,9 +172,9 @@
 	};
 	DA02F5290FCA84E600A06490 /* CCPAccountTest.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {689, 764}}";
-			sepNavSelRange = "{297, 0}";
-			sepNavVisRange = "{59, 497}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 656}}";
+			sepNavSelRange = "{438, 0}";
+			sepNavVisRange = "{267, 1130}";
 			sepNavWindowFrame = "{{61, 173}, {750, 558}}";
 		};
 	};
@@ -233,22 +233,29 @@
 	DA24D9650FD5033800E04994 /* CCPCharacterDelegate.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1011, 468}}";
-			sepNavSelRange = "{147, 0}";
-			sepNavVisRange = "{0, 695}";
+			sepNavSelRange = "{125, 0}";
+			sepNavVisRange = "{0, 875}";
 		};
 	};
 	DA24D9660FD5033800E04994 /* CCPCharacterDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 816}}";
-			sepNavSelRange = "{944, 0}";
-			sepNavVisRange = "{318, 716}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 928}}";
+			sepNavSelRange = "{97, 0}";
+			sepNavVisRange = "{0, 756}";
 		};
 	};
 	DA24D96B0FD504A400E04994 /* CCPCharacterResultDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 468}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 238}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 480}}";
+			sepNavSelRange = "{382, 0}";
+			sepNavVisRange = "{0, 914}";
+		};
+	};
+	DA24D96C0FD504A400E04994 /* CCPCharacterResultDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1056}}";
+			sepNavSelRange = "{1095, 0}";
+			sepNavVisRange = "{780, 786}";
 		};
 	};
 	DA4FC6C30FCFC5CA00335715 /* testAcct */ = {
@@ -300,7 +307,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 28";
 		rLen = 0;
-		rLoc = 1984;
+		rLoc = 2040;
 		rType = 0;
 		vrLen = 761;
 		vrLoc = 181;
@@ -310,7 +317,7 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 17";
 		rLen = 0;
-		rLoc = 3314;
+		rLoc = 3315;
 		rType = 0;
 		vrLen = 391;
 		vrLoc = 0;
@@ -461,7 +468,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 113";
 		rLen = 0;
-		rLoc = 4160;
+		rLoc = 4216;
 		rType = 0;
 		vrLen = 466;
 		vrLoc = 0;
@@ -471,7 +478,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 28";
 		rLen = 0;
-		rLoc = 1984;
+		rLoc = 2040;
 		rType = 0;
 		vrLen = 617;
 		vrLoc = 0;
@@ -481,7 +488,7 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 65";
 		rLen = 0;
-		rLoc = 2092;
+		rLoc = 2093;
 		rType = 0;
 		vrLen = 515;
 		vrLoc = 1308;
@@ -491,7 +498,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 9";
 		rLen = 0;
-		rLoc = 336;
+		rLoc = 392;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 0;
@@ -501,7 +508,7 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 62";
 		rLen = 495;
-		rLoc = 1950;
+		rLoc = 1951;
 		rType = 0;
 		vrLen = 539;
 		vrLoc = 1284;
@@ -511,7 +518,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 21";
 		rLen = 0;
-		rLoc = 336;
+		rLoc = 392;
 		rType = 0;
 		vrLen = 601;
 		vrLoc = 101;
@@ -531,7 +538,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 49";
 		rLen = 0;
-		rLoc = 3492;
+		rLoc = 3548;
 		rType = 0;
 		vrLen = 758;
 		vrLoc = 388;
@@ -541,7 +548,7 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 62";
 		rLen = 496;
-		rLoc = 1950;
+		rLoc = 1951;
 		rType = 0;
 		vrLen = 539;
 		vrLoc = 1284;
@@ -551,7 +558,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 69";
 		rLen = 0;
-		rLoc = 3426;
+		rLoc = 3482;
 		rType = 0;
 		vrLen = 1064;
 		vrLoc = 823;
@@ -561,7 +568,7 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 53";
 		rLen = 0;
-		rLoc = 1627;
+		rLoc = 1628;
 		rType = 0;
 		vrLen = 724;
 		vrLoc = 1000;
@@ -571,7 +578,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 113";
 		rLen = 0;
-		rLoc = 4160;
+		rLoc = 4216;
 		rType = 0;
 		vrLen = 595;
 		vrLoc = 2940;
@@ -591,7 +598,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 113";
 		rLen = 0;
-		rLoc = 4160;
+		rLoc = 4216;
 		rType = 0;
 		vrLen = 466;
 		vrLoc = 0;
@@ -601,7 +608,7 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 11";
 		rLen = 0;
-		rLoc = 782;
+		rLoc = 783;
 		rType = 0;
 		vrLen = 776;
 		vrLoc = 728;
@@ -611,7 +618,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 113";
 		rLen = 0;
-		rLoc = 4160;
+		rLoc = 4216;
 		rType = 0;
 		vrLen = 466;
 		vrLoc = 0;
@@ -631,7 +638,7 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 11";
 		rLen = 0;
-		rLoc = 782;
+		rLoc = 783;
 		rType = 0;
 		vrLen = 778;
 		vrLoc = 726;
@@ -651,7 +658,7 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 10";
 		rLen = 0;
-		rLoc = 345;
+		rLoc = 346;
 		rType = 0;
 		vrLen = 1002;
 		vrLoc = 0;

@@ -73,6 +73,60 @@
 	return lastUpdate;
 }
 
+-(NSString*)name {
+	if(!name)
+		[self update];
+	return name;
+}
+
+-(NSString*)race {
+	if(!race)
+		[self update];
+	return race;
+}
+
+-(NSString*)bloodLine {
+	if(!bloodLine)
+		[self update];
+	return bloodLine;
+}
+
+-(NSString*)gender {
+	if(!gender)
+		[self update];
+	return gender;
+}
+
+-(NSString*)corporationName {
+	if(!corporationName)
+		[self update];
+	return corporationName;
+}
+
+-(NSString*)cloneName {
+	if(!cloneName)
+		[self update];
+	return cloneName;
+}
+
+-(int)corporationID {
+	if(!name) // use a nil-differentiable property
+		[self update];
+	return corporationID;
+}
+
+-(int)cloneSkillPoints {
+	if(!name)
+		[self update];
+	return cloneSkillPoints;
+}
+
+-(double)balance {
+	if(!name)
+		[self update];
+	return balance;
+}
+
 -(void)update {
 	NSURL *charSheetUrl = [[NSURL alloc]
 						  initWithString:[NSString stringWithFormat:

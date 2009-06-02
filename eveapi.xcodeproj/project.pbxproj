@@ -18,6 +18,7 @@
 		DA24D9680FD5033800E04994 /* CCPCharacterDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA24D9660FD5033800E04994 /* CCPCharacterDelegate.m */; };
 		DA24D96D0FD504A400E04994 /* CCPCharacterResultDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DA24D96B0FD504A400E04994 /* CCPCharacterResultDelegate.h */; };
 		DA24D96E0FD504A400E04994 /* CCPCharacterResultDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA24D96C0FD504A400E04994 /* CCPCharacterResultDelegate.m */; };
+		DA24D9760FD50A4600E04994 /* CCPCharacterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DA24D9750FD50A4600E04994 /* CCPCharacterTest.m */; };
 		DA4FC6C40FCFC5CA00335715 /* testAcct in Resources */ = {isa = PBXBuildFile; fileRef = DA4FC6C30FCFC5CA00335715 /* testAcct */; };
 		DA6D1DF90FD263CE007E642C /* TestInfoGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6D1DF80FD263CE007E642C /* TestInfoGetter.m */; };
 		DAB82A9B0FC69BA300F67345 /* CCPAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = DAB82A990FC69BA300F67345 /* CCPAccount.h */; };
@@ -54,6 +55,8 @@
 		DA24D9660FD5033800E04994 /* CCPCharacterDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCPCharacterDelegate.m; path = src/com.eveonline.api/CCPCharacterDelegate.m; sourceTree = "<group>"; };
 		DA24D96B0FD504A400E04994 /* CCPCharacterResultDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCPCharacterResultDelegate.h; path = src/com.eveonline.api/CCPCharacterResultDelegate.h; sourceTree = "<group>"; };
 		DA24D96C0FD504A400E04994 /* CCPCharacterResultDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCPCharacterResultDelegate.m; path = src/com.eveonline.api/CCPCharacterResultDelegate.m; sourceTree = "<group>"; };
+		DA24D9740FD50A4600E04994 /* CCPCharacterTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCPCharacterTest.h; path = src/test/CCPCharacterTest.h; sourceTree = "<group>"; };
+		DA24D9750FD50A4600E04994 /* CCPCharacterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCPCharacterTest.m; path = src/test/CCPCharacterTest.m; sourceTree = "<group>"; };
 		DA4FC6C30FCFC5CA00335715 /* testAcct */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testAcct; sourceTree = "<group>"; };
 		DA4FC6C90FCFCF8B00335715 /* testAcct.example */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testAcct.example; sourceTree = "<group>"; };
 		DA6D1DF70FD263CE007E642C /* TestInfoGetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestInfoGetter.h; path = src/test/TestInfoGetter.h; sourceTree = "<group>"; };
@@ -171,6 +174,8 @@
 				DA02F5290FCA84E600A06490 /* CCPAccountTest.m */,
 				DA6D1DF70FD263CE007E642C /* TestInfoGetter.h */,
 				DA6D1DF80FD263CE007E642C /* TestInfoGetter.m */,
+				DA24D9740FD50A4600E04994 /* CCPCharacterTest.h */,
+				DA24D9750FD50A4600E04994 /* CCPCharacterTest.m */,
 			);
 			name = "Test Cases";
 			sourceTree = "<group>";
@@ -328,6 +333,7 @@
 			files = (
 				DA02F52A0FCA84E600A06490 /* CCPAccountTest.m in Sources */,
 				DA6D1DF90FD263CE007E642C /* TestInfoGetter.m in Sources */,
+				DA24D9760FD50A4600E04994 /* CCPCharacterTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

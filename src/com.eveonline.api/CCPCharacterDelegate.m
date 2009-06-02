@@ -22,6 +22,7 @@
 	
 	// if we start into the results section then let's use that delegate
 	if([elementName isEqualToString:@"result"]) {
+
 		[self setChild:[[CCPCharacterResultDelegate alloc] initWithCharacter:character parent:self]];
 		[parser setDelegate:child];
 		return;

@@ -44,7 +44,6 @@
 }
 
 -(NSMutableArray*)characters {
-	NSLog(@"test");
 	if(characters!=nil)
 		return characters;
 	NSURL *acctCharUrl = [[NSURL alloc]
