@@ -1,5 +1,7 @@
 #import "CCPAccount.h"
 
+#import "CCPCharacter.h"
+
 @implementation CCPAccount
 
 @synthesize acctId;

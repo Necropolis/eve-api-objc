@@ -41,7 +41,7 @@
  */
 #import <Cocoa/Cocoa.h>
 
-#import "CCPCharacter.h"
+@class CCPCharacter;
 
 /**
  * A simple class which returns arrays of CCPCharacters.  This is much

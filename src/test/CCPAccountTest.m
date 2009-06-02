@@ -9,6 +9,9 @@
 
 -(void)testCharListRetrieval {
 	NSLog(@"Beginning character list retrieval test");
+	NSLog(@"  User ID:           %d", [testAcct acctId]);
+	NSLog(@"  Limited API Key:   %@", [testAcct ltdApiKey]);
+	NSLog(@"  Unlimited API Key: %@", [testAcct ultdApiKey]);
 	NSMutableArray *characters = [testAcct characters];
 	STAssertTrue([characters count]>0,
 				 @"Given account has no characters!");

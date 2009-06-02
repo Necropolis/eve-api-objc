@@ -1,24 +1,26 @@
 #import "CCPCharacter.h"
 
+#import "CCPAccount.h"
+#import "CCPCharacterDelegate.h"
 
 @implementation CCPCharacter
 
 @synthesize characterId;
 @synthesize acct;
 
-@dynamic lastUpdate;
+@synthesize lastUpdate;
 
-@dynamic name;
-@dynamic race;
-@dynamic bloodLine;
-@dynamic gender;
-@dynamic corporationName;
-@dynamic cloneName;
+@synthesize name;
+@synthesize race;
+@synthesize bloodLine;
+@synthesize gender;
+@synthesize corporationName;
+@synthesize cloneName;
 
-@dynamic corporationID;
-@dynamic cloneSkillPoints;
+@synthesize corporationID;
+@synthesize cloneSkillPoints;
 
-@dynamic balance;
+@synthesize balance;
 
 -(id)initWithId:(int)_characterId
 		   acct:(CCPAccount*)_acct {
@@ -63,6 +65,30 @@
 		[coder decodeValueOfObjCType:@encode(double) at:&balance];
 	}
 	return self;
+}
+
+-(NSDate*)lastUpdate {
+	if(!lastUpdate)
+		[self update];
+	return lastUpdate;
+}
+
+-(void)update {
+	NSURL *charSheetUrl = [[NSURL alloc]
+						  initWithString:[NSString stringWithFormat:
+										  @"http://api.eve-online.com/char/CharacterSheet.xml.aspx?userID=%d&characterID=%d&apiKey=%@",
+										  [acct acctId], characterId, [acct ltdApiKey]]];
+	
+	NSXMLParser *parser = [[NSXMLParser alloc] initWithContentsOfURL:charSheetUrl];
+	
+	delegate = [[CCPCharacterDelegate alloc] initWithCharacter:self];
+	[parser setDelegate:delegate];
+	
+	[parser parse];
+	
+	[delegate release];
+	[parser release];
+	[charSheetUrl release];
 }
 
 -(void)encodeWithCoder:(NSCoder*)coder {
@@ -116,3 +142,6 @@
 }
 
 @end
+
+
+
