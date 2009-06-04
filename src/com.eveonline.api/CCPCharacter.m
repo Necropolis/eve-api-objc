@@ -22,6 +22,12 @@
 
 @synthesize balance;
 
+@synthesize baseIntelligence;
+@synthesize baseMemory;
+@synthesize basePerception;
+@synthesize baseWillpower;
+@synthesize baseCharisma;
+
 -(id)initWithId:(int)_characterId
 		   acct:(CCPAccount*)_acct {
 	[super init];
@@ -48,6 +54,12 @@
 		cloneSkillPoints = [coder decodeIntForKey:@"CCPCharacter_cloneSkillPoints"];
 		
 		balance = [coder decodeDoubleForKey:@"CCPCharacter_balance"];
+		
+		baseIntelligence = [coder decodeIntForKey:@"CCPCharacter_baseIntelligence"];
+		baseMemory = [coder decodeIntForKey:@"CCPCharacter_baseMemory"];
+		basePerception = [coder decodeIntForKey:@"CCPCharacter_basePerception"];
+		baseWillpower = [coder decodeIntForKey:@"CCPCharacter_baseWillpower"];
+		baseCharisma = [coder decodeIntForKey:@"CCPCharacter_baseCharisma"];
 	} else {
 		[coder decodeValueOfObjCType:@encode(int) at:&characterId];
 		acct = [[coder decodeObject] retain];
@@ -63,6 +75,12 @@
 		[coder decodeValueOfObjCType:@encode(int) at:&cloneSkillPoints];
 		
 		[coder decodeValueOfObjCType:@encode(double) at:&balance];
+		
+		[coder decodeValueOfObjCType:@encode(int) at:&baseIntelligence];
+		[coder decodeValueOfObjCType:@encode(int) at:&baseMemory];
+		[coder decodeValueOfObjCType:@encode(int) at:&basePerception];
+		[coder decodeValueOfObjCType:@encode(int) at:&baseWillpower];
+		[coder decodeValueOfObjCType:@encode(int) at:&baseCharisma];
 	}
 	return self;
 }
@@ -163,6 +181,12 @@
 		[coder encodeInt:cloneSkillPoints forKey:@"CCPCharacter_cloneSkillPoints"];
 		
 		[coder encodeDouble:balance forKey:@"CCPCharacter_balance"];
+		
+		[coder encodeInt:baseIntelligence forKey:@"CCPCharacter_baseIntelligence"];
+		[coder encodeInt:baseMemory forKey:@"CCPCharacter_baseMemory"];
+		[coder encodeInt:basePerception forKey:@"CCPCharacter_basePerception"];
+		[coder encodeInt:baseWillpower forKey:@"CCPCharacter_baseWillpower"];
+		[coder encodeInt:baseCharisma forKey:@"CCPCharacter_baseCharisma"];
 	} else {
 		[coder encodeValueOfObjCType:@encode(int) at:&characterId];
 		[coder encodeObject:acct];
@@ -178,6 +202,12 @@
 		[coder encodeValueOfObjCType:@encode(int) at:&cloneSkillPoints];
 		
 		[coder encodeValueOfObjCType:@encode(double) at:&balance];
+		
+		[coder encodeValueOfObjCType:@encode(int) at:&baseIntelligence];
+		[coder encodeValueOfObjCType:@encode(int) at:&baseMemory];
+		[coder encodeValueOfObjCType:@encode(int) at:&basePerception];
+		[coder encodeValueOfObjCType:@encode(int) at:&baseWillpower];
+		[coder encodeValueOfObjCType:@encode(int) at:&baseCharisma];
 	}
 }
 

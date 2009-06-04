@@ -33,8 +33,14 @@
 	
 	double		balance;			//!< What's in your wallet?
 	
+	int			baseIntelligence;	//!< Base intelligence attribute before skill and implant modifiers.
+	int			baseMemory;			//!< Base memory attribute before skill and implant modifiers.
+	int			basePerception;		//!< Base perception attribute before skill and implant modifiers.
+	int			baseWillpower;		//!< Base willpower attribute before skill and implant modifiers.
+	int			baseCharisma;		//!< Base charisma attribute before skill and implant modifiers.
+	
 	@private
-	CCPCharacterDelegate *delegate;
+	CCPCharacterDelegate *delegate;	//!< Internal delegate class used by the XML parser - pay it no heed.
 }
 
 @property(readwrite, assign) int characterId;
@@ -53,6 +59,12 @@
 @property(readwrite, assign) int cloneSkillPoints;
 
 @property(readwrite, assign) double balance;
+
+@property(readwrite, assign) int baseIntelligence;
+@property(readwrite, assign) int baseMemory;
+@property(readwrite, assign) int basePerception;
+@property(readwrite, assign) int baseWillpower;
+@property(readwrite, assign) int baseCharisma;
 
 /**
  * Initializes the receiver with a given character ID.  The
