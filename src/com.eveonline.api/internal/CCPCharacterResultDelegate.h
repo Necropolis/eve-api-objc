@@ -2,6 +2,9 @@
 
 @class CCPCharacter, CCPCharacterDelegate;
 
+/**
+ * Internal use only.
+ */
 @interface CCPCharacterResultDelegate : NSObject {
 	CCPCharacter *character;
 	CCPCharacterDelegate *parent;
