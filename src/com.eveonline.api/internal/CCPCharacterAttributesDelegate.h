@@ -2,16 +2,11 @@
 
 #import "CCPXMLDelegate.h"
 
-@class CCPCharacter, CCPCharacterDelegate, CCPCharacterAttributesDelegate;
+@class CCPCharacter, CCPCharacterResultDelegate;
 
-/**
- * Internal use only.
- */
-@interface CCPCharacterResultDelegate : CCPXMLDelegate {
-	CCPCharacterAttributesDelegate *attributeChild;
+@interface CCPCharacterAttributesDelegate : CCPXMLDelegate {
+
 }
-
-@property(readwrite, retain) CCPCharacterAttributesDelegate * attributeChild;
 
 -(void)parser:(NSXMLParser*)parser didStartElement:(NSString *)elementName 
  namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName 
@@ -19,7 +14,5 @@
 
 -(void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName 
  namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName;
-
--(void)dealloc;
 
 @end

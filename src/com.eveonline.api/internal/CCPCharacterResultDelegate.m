@@ -2,78 +2,56 @@
 
 #import "CCPCharacter.h"
 #import "CCPCharacterDelegate.h"
+#import "CCPCharacterAttributesDelegate.h"
 
 @implementation CCPCharacterResultDelegate
 
-@synthesize character;
-@synthesize parent;
-@synthesize tempString;
-
--(id)initWithCharacter:(CCPCharacter*)_character
-				parent:(CCPCharacterDelegate*)_parent {
-	[super init];
-	
-	[self setCharacter:_character];
-	[self setParent:_parent];
-	
-	return self;
-}
+@synthesize attributeChild;
 
 -(void)parser:(NSXMLParser*)parser didStartElement:(NSString *)elementName 
  namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName 
    attributes:(NSDictionary *)attributeDict {
-	
-}
-
--(void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string {
-	
-	if(!tempString)
-		tempString = [[NSMutableString alloc] init];
-	
-	[tempString appendString:string];
-	
+	if([elementName isEqualToString:@"attributes"]) {
+		[self setAttributeChild:[[CCPCharacterAttributesDelegate alloc] initWithMutator:mutator
+																				 parent:self]];
+		[parser setDelegate:attributeChild];
+	}
 }
 
 -(void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName 
  namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName {
 	
-	int i; char c;
-	for(i = 0; i < [tempString length]; ++i) {
-		c = [tempString characterAtIndex:i];
-		if(c != ' ' && c != '\t' && c != '\r' && c != '\n')
-			break;
-	}
-	[self setTempString:[NSMutableString stringWithString:[tempString substringFromIndex:i]]];
+	[self cleanTempString];
 	
 	// result set parser is done, set the delegate back to the parent CCPCharacterDelegate
 	if([elementName isEqualToString:@"result"]) {
 		[parser setDelegate:parent];
 	} else if([elementName isEqualToString:@"name"]) {
-		[character setName:[NSString stringWithString:tempString]];
+		[((CCPCharacter*)mutator) setName:[NSString stringWithString:tempString]];
 		[self setTempString:nil];
 	} else if([elementName isEqualToString:@"race"]) {
-		[character setRace:[NSString stringWithString:tempString]];
+		[mutator setRace:[NSString stringWithString:tempString]];
 		[self setTempString:nil];
 	} else if([elementName isEqualToString:@"bloodLine"]) {
-		[character setBloodLine:[NSString stringWithString:tempString]];
+		[mutator setBloodLine:[NSString stringWithString:tempString]];
 		[self setTempString:nil];
 	} else if([elementName isEqualToString:@"gender"]) {
-		[character setGender:[NSString stringWithString:tempString]];
+		[mutator setGender:[NSString stringWithString:tempString]];
 		[self setTempString:nil];
 	} else if([elementName isEqualToString:@"corporationName"]) {
-		[character setCorporationName:[NSString stringWithString:tempString]];
+		[mutator setCorporationName:[NSString stringWithString:tempString]];
 		[self setTempString:nil];
 	} else if([elementName isEqualToString:@"corporationID"]) {
-		[character setCorporationID:[tempString intValue]];
+		[mutator setCorporationID:[tempString intValue]];
 		[self setTempString:nil];
 	} else if([elementName isEqualToString:@"cloneName"]) {
-		[character setCloneName:[NSString stringWithString:tempString]];
+		[mutator setCloneName:[NSString stringWithString:tempString]];
 		[self setTempString:nil];
 	} else if([elementName isEqualToString:@"cloneSkillPoints"]) {
-		[character setCloneSkillPoints:[tempString intValue]];
+		[mutator setCloneSkillPoints:[tempString intValue]];
 		[self setTempString:nil];
 	} else if([elementName isEqualToString:@"balance"]) {
-		[character setBalance:[tempString doubleValue]];
+		[mutator setBalance:[tempString doubleValue]];
 		[self setTempString:nil];
 	} else {
 		[self setTempString:nil];
@@ -82,9 +60,7 @@
 }
 
 -(void)dealloc {
-	[character release];
-	[parent release];
-	[tempString release];
+	[attributeChild release];
 	
 	[super dealloc];
 }

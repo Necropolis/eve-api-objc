@@ -153,7 +153,8 @@
 	
 	NSXMLParser *parser = [[NSXMLParser alloc] initWithContentsOfURL:charSheetUrl];
 	
-	delegate = [[CCPCharacterDelegate alloc] initWithCharacter:self];
+	delegate = [[CCPCharacterDelegate alloc] initWithMutator:self
+													  parent:nil];
 	[parser setDelegate:delegate];
 	
 	[parser parse];

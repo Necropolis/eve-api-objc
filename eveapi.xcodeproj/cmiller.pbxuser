@@ -4,7 +4,7 @@
 		activeBuildConfigurationName = Debug;
 		activeTarget = DA02F50D0FCA83A900A06490 /* unittests */;
 		addToTargets = (
-			DA02F50D0FCA83A900A06490 /* unittests */,
+			8DC2EF4F0486A6940098B216 /* eveapi */,
 		);
 		breakpoints = (
 		);
@@ -253,17 +253,17 @@
 	};
 	DA02F4BD0FCA726900A06490 /* CCPCharacter.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1020, 1296}}";
-			sepNavSelRange = "{1151, 656}";
-			sepNavVisRange = "{551, 1450}";
+			sepNavIntBoundsRect = "{{0, 0}, {1020, 1568}}";
+			sepNavSelRange = "{3015, 0}";
+			sepNavVisRange = "{2965, 962}";
 			sepNavWindowFrame = "{{38, 194}, {750, 558}}";
 		};
 	};
 	DA02F4BE0FCA726900A06490 /* CCPCharacter.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {974, 3280}}";
-			sepNavSelRange = "{2837, 0}";
-			sepNavVisRange = "{1643, 608}";
+			sepNavIntBoundsRect = "{{0, 0}, {974, 3712}}";
+			sepNavSelRange = "{5955, 0}";
+			sepNavVisRange = "{82, 530}";
 		};
 	};
 	DA02F4C70FCA794800A06490 /* PBXTextBookmark */ = {
@@ -278,9 +278,9 @@
 	};
 	DA02F4CE0FCA796500A06490 /* doxygen.config */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 5008}}";
-			sepNavSelRange = "{2034, 0}";
-			sepNavVisRange = "{2120, 1043}";
+			sepNavIntBoundsRect = "{{0, 0}, {974, 5152}}";
+			sepNavSelRange = "{4395, 0}";
+			sepNavVisRange = "{0, 1031}";
 		};
 	};
 	DA02F50D0FCA83A900A06490 /* unittests */ = {
@@ -358,37 +358,65 @@
 		fRef = DA24D96C0FD504A400E04994 /* CCPCharacterResultDelegate.m */;
 		name = "CCPCharacterResultDelegate.m: 54";
 		rLen = 0;
-		rLoc = 1546;
+		rLoc = 1179;
 		rType = 0;
 		vrLen = 691;
 		vrLoc = 0;
 	};
+	DA2175340FD8D387000EF18A /* CCPCharacterAttributesDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {974, 468}}";
+			sepNavSelRange = "{509, 0}";
+			sepNavVisRange = "{0, 515}";
+		};
+	};
+	DA2175350FD8D387000EF18A /* CCPCharacterAttributesDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {974, 608}}";
+			sepNavSelRange = "{625, 0}";
+			sepNavVisRange = "{0, 1057}";
+		};
+	};
+	DA2175400FD8D9C8000EF18A /* CCPXMLDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {974, 468}}";
+			sepNavSelRange = "{397, 23}";
+			sepNavVisRange = "{0, 444}";
+		};
+	};
+	DA2175410FD8D9C8000EF18A /* CCPXMLDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {880, 880}}";
+			sepNavSelRange = "{275, 0}";
+			sepNavVisRange = "{102, 250}";
+		};
+	};
 	DA24D9650FD5033800E04994 /* CCPCharacterDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 468}}";
+			sepNavIntBoundsRect = "{{0, 0}, {974, 468}}";
 			sepNavSelRange = "{125, 0}";
 			sepNavVisRange = "{0, 875}";
 		};
 	};
 	DA24D9660FD5033800E04994 /* CCPCharacterDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {974, 960}}";
-			sepNavSelRange = "{495, 0}";
-			sepNavVisRange = "{0, 755}";
+			sepNavIntBoundsRect = "{{0, 0}, {974, 976}}";
+			sepNavSelRange = "{710, 0}";
+			sepNavVisRange = "{725, 608}";
 		};
 	};
 	DA24D96B0FD504A400E04994 /* CCPCharacterResultDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {974, 528}}";
-			sepNavSelRange = "{94, 0}";
-			sepNavVisRange = "{0, 939}";
+			sepNavIntBoundsRect = "{{0, 0}, {974, 468}}";
+			sepNavSelRange = "{540, 0}";
+			sepNavVisRange = "{0, 711}";
 		};
 	};
 	DA24D96C0FD504A400E04994 /* CCPCharacterResultDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {974, 1504}}";
-			sepNavSelRange = "{1546, 0}";
-			sepNavVisRange = "{0, 691}";
+			sepNavIntBoundsRect = "{{0, 0}, {974, 992}}";
+			sepNavSelRange = "{1044, 0}";
+			sepNavVisRange = "{806, 1463}";
 		};
 	};
 	DA24D9740FD50A4600E04994 /* CCPCharacterTest.h */ = {
@@ -400,9 +428,9 @@
 	};
 	DA24D9750FD50A4600E04994 /* CCPCharacterTest.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {880, 832}}";
-			sepNavSelRange = "{1288, 70}";
-			sepNavVisRange = "{465, 717}";
+			sepNavIntBoundsRect = "{{0, 0}, {974, 1248}}";
+			sepNavSelRange = "{2667, 0}";
+			sepNavVisRange = "{1139, 1327}";
 		};
 	};
 	DA24D9CB0FD5234E00E04994 /* PBXTextBookmark */ = {
@@ -480,7 +508,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 128";
 		rLen = 0;
-		rLoc = 2837;
+		rLoc = 3664;
 		rType = 0;
 		vrLen = 608;
 		vrLoc = 1643;
@@ -510,7 +538,7 @@
 		fRef = DA24D96B0FD504A400E04994 /* CCPCharacterResultDelegate.h */;
 		name = "CCPCharacterResultDelegate.h: 13";
 		rLen = 0;
-		rLoc = 413;
+		rLoc = 346;
 		rType = 0;
 		vrLen = 915;
 		vrLoc = 0;
@@ -520,7 +548,7 @@
 		fRef = DA24D9750FD50A4600E04994 /* CCPCharacterTest.m */;
 		name = "CCPCharacterTest.m: 41";
 		rLen = 0;
-		rLoc = 1741;
+		rLoc = 1240;
 		rType = 0;
 		vrLen = 1523;
 		vrLoc = 249;
@@ -530,7 +558,7 @@
 		fRef = DA24D96C0FD504A400E04994 /* CCPCharacterResultDelegate.m */;
 		name = "CCPCharacterResultDelegate.m: 66";
 		rLen = 0;
-		rLoc = 2216;
+		rLoc = 1839;
 		rType = 0;
 		vrLen = 1153;
 		vrLoc = 1510;
@@ -540,7 +568,7 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 65";
 		rLen = 0;
-		rLoc = 3338;
+		rLoc = 4096;
 		rType = 0;
 		vrLen = 545;
 		vrLoc = 1512;
@@ -560,7 +588,7 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 70";
 		rLen = 0;
-		rLoc = 3338;
+		rLoc = 4096;
 		rType = 0;
 		vrLen = 637;
 		vrLoc = 1356;
@@ -580,7 +608,7 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 72";
 		rLen = 0;
-		rLoc = 3338;
+		rLoc = 4096;
 		rType = 0;
 		vrLen = 660;
 		vrLoc = 1512;
@@ -610,7 +638,7 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 68";
 		rLen = 0;
-		rLoc = 3338;
+		rLoc = 4096;
 		rType = 0;
 		vrLen = 808;
 		vrLoc = 1561;
@@ -620,7 +648,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 124";
 		rLen = 0;
-		rLoc = 4962;
+		rLoc = 6475;
 		rType = 0;
 		vrLen = 499;
 		vrLoc = 3106;
@@ -640,7 +668,7 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 70";
 		rLen = 0;
-		rLoc = 3338;
+		rLoc = 4096;
 		rType = 0;
 		vrLen = 717;
 		vrLoc = 1659;
@@ -650,7 +678,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 138";
 		rLen = 0;
-		rLoc = 4962;
+		rLoc = 6475;
 		rType = 0;
 		vrLen = 585;
 		vrLoc = 3535;
@@ -660,7 +688,7 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 70";
 		rLen = 0;
-		rLoc = 3338;
+		rLoc = 4096;
 		rType = 0;
 		vrLen = 763;
 		vrLoc = 1613;
@@ -670,7 +698,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 138";
 		rLen = 0;
-		rLoc = 4962;
+		rLoc = 6475;
 		rType = 0;
 		vrLen = 585;
 		vrLoc = 3535;
@@ -680,7 +708,7 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 66";
 		rLen = 0;
-		rLoc = 3338;
+		rLoc = 4096;
 		rType = 0;
 		vrLen = 787;
 		vrLoc = 1613;
@@ -690,7 +718,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 148";
 		rLen = 0;
-		rLoc = 4962;
+		rLoc = 6475;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 3538;
@@ -700,7 +728,7 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 56";
 		rLen = 0;
-		rLoc = 2830;
+		rLoc = 3588;
 		rType = 0;
 		vrLen = 787;
 		vrLoc = 1612;
@@ -710,7 +738,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 148";
 		rLen = 0;
-		rLoc = 4962;
+		rLoc = 6475;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 3538;
@@ -720,7 +748,7 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 77";
 		rLen = 0;
-		rLoc = 3338;
+		rLoc = 4096;
 		rType = 0;
 		vrLen = 814;
 		vrLoc = 1659;
@@ -730,7 +758,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 158";
 		rLen = 0;
-		rLoc = 4962;
+		rLoc = 6475;
 		rType = 0;
 		vrLen = 821;
 		vrLoc = 3607;
@@ -740,7 +768,7 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 54";
 		rLen = 0;
-		rLoc = 2642;
+		rLoc = 3400;
 		rType = 0;
 		vrLen = 1031;
 		vrLoc = 1259;
@@ -750,7 +778,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 75";
 		rLen = 0;
-		rLoc = 3381;
+		rLoc = 4208;
 		rType = 0;
 		vrLen = 1116;
 		vrLoc = 1298;
@@ -770,7 +798,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 69";
 		rLen = 0;
-		rLoc = 2878;
+		rLoc = 3705;
 		rType = 0;
 		vrLen = 782;
 		vrLoc = 1695;
@@ -790,7 +818,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 78";
 		rLen = 0;
-		rLoc = 3312;
+		rLoc = 4139;
 		rType = 0;
 		vrLen = 1193;
 		vrLoc = 974;
@@ -800,9 +828,9 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 92";
 		rLen = 0;
-		rLoc = 3316;
+		rLoc = 4074;
 		rType = 0;
-		vrLen = 920;
+		vrLen = 163;
 		vrLoc = 3177;
 	};
 	DA24D9F30FD5234E00E04994 /* PBXTextBookmark */ = {
@@ -810,7 +838,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 78";
 		rLen = 0;
-		rLoc = 3121;
+		rLoc = 3948;
 		rType = 0;
 		vrLen = 807;
 		vrLoc = 1674;
@@ -820,9 +848,9 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 76";
 		rLen = 0;
-		rLoc = 3166;
+		rLoc = 3924;
 		rType = 0;
-		vrLen = 974;
+		vrLen = 549;
 		vrLoc = 2791;
 	};
 	DA24D9F50FD5234E00E04994 /* PBXTextBookmark */ = {
@@ -830,7 +858,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 71";
 		rLen = 0;
-		rLoc = 2120;
+		rLoc = 2947;
 		rType = 0;
 		vrLen = 780;
 		vrLoc = 1674;
@@ -850,9 +878,9 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 76";
 		rLen = 0;
-		rLoc = 3166;
+		rLoc = 3924;
 		rType = 0;
-		vrLen = 974;
+		vrLen = 549;
 		vrLoc = 2791;
 	};
 	DA24D9F80FD5234E00E04994 /* PBXTextBookmark */ = {
@@ -860,7 +888,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 78";
 		rLen = 0;
-		rLoc = 3070;
+		rLoc = 3897;
 		rType = 0;
 		vrLen = 778;
 		vrLoc = 1674;
@@ -890,7 +918,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 78";
 		rLen = 0;
-		rLoc = 3052;
+		rLoc = 3879;
 		rType = 0;
 		vrLen = 496;
 		vrLoc = 0;
@@ -930,7 +958,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 78";
 		rLen = 0;
-		rLoc = 3052;
+		rLoc = 3879;
 		rType = 0;
 		vrLen = 876;
 		vrLoc = 1246;
@@ -950,7 +978,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 78";
 		rLen = 0;
-		rLoc = 3052;
+		rLoc = 3879;
 		rType = 0;
 		vrLen = 876;
 		vrLoc = 1246;
@@ -960,17 +988,17 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 98";
 		rLen = 0;
-		rLoc = 3338;
+		rLoc = 4096;
 		rType = 0;
-		vrLen = 716;
-		vrLoc = 3628;
+		vrLen = 0;
+		vrLoc = 3340;
 	};
 	DA24DA030FD5234E00E04994 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 188";
 		rLen = 0;
-		rLoc = 4959;
+		rLoc = 6472;
 		rType = 0;
 		vrLen = 253;
 		vrLoc = 4710;
@@ -980,7 +1008,7 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 98";
 		rLen = 0;
-		rLoc = 3338;
+		rLoc = 4096;
 		rType = 0;
 		vrLen = 1221;
 		vrLoc = 1325;
@@ -990,7 +1018,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 174";
 		rLen = 0;
-		rLoc = 4959;
+		rLoc = 6472;
 		rType = 0;
 		vrLen = 306;
 		vrLoc = 4657;
@@ -1000,10 +1028,10 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 37";
 		rLen = 0;
-		rLoc = 1852;
+		rLoc = 2369;
 		rType = 0;
-		vrLen = 772;
-		vrLoc = 3783;
+		vrLen = 0;
+		vrLoc = 3340;
 	};
 	DA24DA070FD5234E00E04994 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -1020,7 +1048,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 174";
 		rLen = 0;
-		rLoc = 4959;
+		rLoc = 6472;
 		rType = 0;
 		vrLen = 306;
 		vrLoc = 4657;
@@ -1030,10 +1058,10 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 102";
 		rLen = 0;
-		rLoc = 3338;
+		rLoc = 4096;
 		rType = 0;
-		vrLen = 726;
-		vrLoc = 3714;
+		vrLen = 0;
+		vrLoc = 3340;
 	};
 	DA24DA0A0FD5234E00E04994 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -1060,7 +1088,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 158";
 		rLen = 0;
-		rLoc = 4959;
+		rLoc = 6472;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 4963;
@@ -1090,7 +1118,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 155";
 		rLen = 0;
-		rLoc = 4959;
+		rLoc = 6472;
 		rType = 0;
 		vrLen = 499;
 		vrLoc = 4199;
@@ -1110,7 +1138,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 155";
 		rLen = 0;
-		rLoc = 4959;
+		rLoc = 6472;
 		rType = 0;
 		vrLen = 466;
 		vrLoc = 4199;
@@ -1120,7 +1148,7 @@
 		fRef = DA24D9660FD5033800E04994 /* CCPCharacterDelegate.m */;
 		name = "CCPCharacterDelegate.m: 38";
 		rLen = 0;
-		rLoc = 1210;
+		rLoc = 1225;
 		rType = 0;
 		vrLen = 716;
 		vrLoc = 318;
@@ -1130,7 +1158,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 155";
 		rLen = 0;
-		rLoc = 4959;
+		rLoc = 6472;
 		rType = 0;
 		vrLen = 466;
 		vrLoc = 4199;
@@ -1140,9 +1168,9 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 79";
 		rLen = 0;
-		rLoc = 3167;
+		rLoc = 3925;
 		rType = 0;
-		vrLen = 708;
+		vrLen = 414;
 		vrLoc = 2926;
 	};
 	DA24DA150FD5234E00E04994 /* PBXTextBookmark */ = {
@@ -1150,7 +1178,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 87";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 4162;
 		rType = 0;
 		vrLen = 1061;
 		vrLoc = 2067;
@@ -1170,7 +1198,7 @@
 		fRef = DA24D9660FD5033800E04994 /* CCPCharacterDelegate.m */;
 		name = "CCPCharacterDelegate.m: 38";
 		rLen = 0;
-		rLoc = 1210;
+		rLoc = 1225;
 		rType = 0;
 		vrLen = 716;
 		vrLoc = 318;
@@ -1210,9 +1238,9 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 94";
 		rLen = 0;
-		rLoc = 3338;
+		rLoc = 4096;
 		rType = 0;
-		vrLen = 681;
+		vrLen = 25;
 		vrLoc = 3315;
 	};
 	DA24DA1C0FD5234E00E04994 /* PBXTextBookmark */ = {
@@ -1220,7 +1248,7 @@
 		fRef = DA24D96B0FD504A400E04994 /* CCPCharacterResultDelegate.h */;
 		name = "CCPCharacterResultDelegate.h: 23";
 		rLen = 0;
-		rLoc = 468;
+		rLoc = 346;
 		rType = 0;
 		vrLen = 879;
 		vrLoc = 36;
@@ -1230,7 +1258,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 145";
 		rLen = 0;
-		rLoc = 4962;
+		rLoc = 6475;
 		rType = 0;
 		vrLen = 503;
 		vrLoc = 3689;
@@ -1240,7 +1268,7 @@
 		fRef = DA24D96C0FD504A400E04994 /* CCPCharacterResultDelegate.m */;
 		name = "CCPCharacterResultDelegate.m: 15";
 		rLen = 0;
-		rLoc = 380;
+		rLoc = 213;
 		rType = 0;
 		vrLen = 680;
 		vrLoc = 0;
@@ -1250,7 +1278,7 @@
 		fRef = DA24D96B0FD504A400E04994 /* CCPCharacterResultDelegate.h */;
 		name = "CCPCharacterResultDelegate.h: 23";
 		rLen = 0;
-		rLoc = 468;
+		rLoc = 346;
 		rType = 0;
 		vrLen = 879;
 		vrLoc = 36;
@@ -1260,7 +1288,7 @@
 		fRef = DA24D96C0FD504A400E04994 /* CCPCharacterResultDelegate.m */;
 		name = "CCPCharacterResultDelegate.m: 16";
 		rLen = 0;
-		rLoc = 380;
+		rLoc = 213;
 		rType = 0;
 		vrLen = 714;
 		vrLoc = 0;
@@ -1270,7 +1298,7 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 89";
 		rLen = 0;
-		rLoc = 3338;
+		rLoc = 4096;
 		rType = 0;
 		vrLen = 731;
 		vrLoc = 2608;
@@ -1280,7 +1308,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 78";
 		rLen = 0;
-		rLoc = 3052;
+		rLoc = 3879;
 		rType = 0;
 		vrLen = 895;
 		vrLoc = 1988;
@@ -1310,7 +1338,7 @@
 		fRef = DA24D96C0FD504A400E04994 /* CCPCharacterResultDelegate.m */;
 		name = "CCPCharacterResultDelegate.m: 41";
 		rLen = 0;
-		rLoc = 1353;
+		rLoc = 971;
 		rType = 0;
 		vrLen = 800;
 		vrLoc = 186;
@@ -1330,7 +1358,7 @@
 		fRef = DA24D9660FD5033800E04994 /* CCPCharacterDelegate.m */;
 		name = "CCPCharacterDelegate.m: 38";
 		rLen = 0;
-		rLoc = 1210;
+		rLoc = 1225;
 		rType = 0;
 		vrLen = 716;
 		vrLoc = 318;
@@ -1380,7 +1408,7 @@
 		fRef = DA24D96C0FD504A400E04994 /* CCPCharacterResultDelegate.m */;
 		name = "CCPCharacterResultDelegate.m: 45";
 		rLen = 0;
-		rLoc = 1497;
+		rLoc = 1130;
 		rType = 0;
 		vrLen = 828;
 		vrLoc = 376;
@@ -1390,7 +1418,7 @@
 		fRef = DA24D96B0FD504A400E04994 /* CCPCharacterResultDelegate.h */;
 		name = "CCPCharacterResultDelegate.h: 13";
 		rLen = 0;
-		rLoc = 413;
+		rLoc = 346;
 		rType = 0;
 		vrLen = 914;
 		vrLoc = 0;
@@ -1400,7 +1428,7 @@
 		fRef = DA24D96C0FD504A400E04994 /* CCPCharacterResultDelegate.m */;
 		name = "CCPCharacterResultDelegate.m: 42";
 		rLen = 0;
-		rLoc = 1355;
+		rLoc = 973;
 		rType = 0;
 		vrLen = 819;
 		vrLoc = 738;
@@ -1430,7 +1458,7 @@
 		fRef = DA24D96C0FD504A400E04994 /* CCPCharacterResultDelegate.m */;
 		name = "CCPCharacterResultDelegate.m: 42";
 		rLen = 0;
-		rLoc = 1355;
+		rLoc = 973;
 		rType = 0;
 		vrLen = 786;
 		vrLoc = 780;
@@ -1560,7 +1588,7 @@
 		fRef = DA24D9750FD50A4600E04994 /* CCPCharacterTest.m */;
 		name = "CCPCharacterTest.m: 17";
 		rLen = 0;
-		rLoc = 1766;
+		rLoc = 2669;
 		rType = 0;
 		vrLen = 478;
 		vrLoc = 0;
@@ -1570,7 +1598,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 80";
 		rLen = 0;
-		rLoc = 3052;
+		rLoc = 3879;
 		rType = 0;
 		vrLen = 987;
 		vrLoc = 1560;
@@ -1580,7 +1608,7 @@
 		fRef = DA24D96C0FD504A400E04994 /* CCPCharacterResultDelegate.m */;
 		name = "CCPCharacterResultDelegate.m: 40";
 		rLen = 0;
-		rLoc = 927;
+		rLoc = 778;
 		rType = 0;
 		vrLen = 1099;
 		vrLoc = 476;
@@ -1610,7 +1638,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 80";
 		rLen = 0;
-		rLoc = 3052;
+		rLoc = 3879;
 		rType = 0;
 		vrLen = 783;
 		vrLoc = 2027;
@@ -1630,7 +1658,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 98";
 		rLen = 0;
-		rLoc = 3109;
+		rLoc = 3936;
 		rType = 0;
 		vrLen = 384;
 		vrLoc = 1963;
@@ -1650,7 +1678,7 @@
 		fRef = DA24D96C0FD504A400E04994 /* CCPCharacterResultDelegate.m */;
 		name = "CCPCharacterResultDelegate.m: 38";
 		rLen = 0;
-		rLoc = 927;
+		rLoc = 778;
 		rType = 0;
 		vrLen = 712;
 		vrLoc = 143;
@@ -1660,7 +1688,7 @@
 		fRef = DA24D9750FD50A4600E04994 /* CCPCharacterTest.m */;
 		name = "CCPCharacterTest.m: 17";
 		rLen = 0;
-		rLoc = 1766;
+		rLoc = 2669;
 		rType = 0;
 		vrLen = 478;
 		vrLoc = 0;
@@ -1680,7 +1708,7 @@
 		fRef = DA24D96C0FD504A400E04994 /* CCPCharacterResultDelegate.m */;
 		name = "CCPCharacterResultDelegate.m: 38";
 		rLen = 0;
-		rLoc = 927;
+		rLoc = 778;
 		rType = 0;
 		vrLen = 926;
 		vrLoc = 672;
@@ -1690,7 +1718,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 98";
 		rLen = 0;
-		rLoc = 3109;
+		rLoc = 3936;
 		rType = 0;
 		vrLen = 536;
 		vrLoc = 0;
@@ -1710,7 +1738,7 @@
 		fRef = DA24D9750FD50A4600E04994 /* CCPCharacterTest.m */;
 		name = "CCPCharacterTest.m: 17";
 		rLen = 0;
-		rLoc = 1766;
+		rLoc = 2669;
 		rType = 0;
 		vrLen = 478;
 		vrLoc = 0;
@@ -1720,7 +1748,7 @@
 		fRef = DA24D96C0FD504A400E04994 /* CCPCharacterResultDelegate.m */;
 		name = "CCPCharacterResultDelegate.m: 38";
 		rLen = 0;
-		rLoc = 927;
+		rLoc = 778;
 		rType = 0;
 		vrLen = 691;
 		vrLoc = 0;
@@ -1740,7 +1768,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 128";
 		rLen = 0;
-		rLoc = 2837;
+		rLoc = 3664;
 		rType = 0;
 		vrLen = 608;
 		vrLoc = 1643;
@@ -1750,7 +1778,7 @@
 		fRef = DA24D96C0FD504A400E04994 /* CCPCharacterResultDelegate.m */;
 		name = "CCPCharacterResultDelegate.m: 73";
 		rLen = 0;
-		rLoc = 2722;
+		rLoc = 2339;
 		rType = 0;
 		vrLen = 1193;
 		vrLoc = 1290;
@@ -1760,7 +1788,7 @@
 		fRef = DA24D9750FD50A4600E04994 /* CCPCharacterTest.m */;
 		name = "CCPCharacterTest.m: 18";
 		rLen = 0;
-		rLoc = 1766;
+		rLoc = 2669;
 		rType = 0;
 		vrLen = 504;
 		vrLoc = 0;
@@ -1770,7 +1798,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 128";
 		rLen = 0;
-		rLoc = 2837;
+		rLoc = 3664;
 		rType = 0;
 		vrLen = 608;
 		vrLoc = 1643;
@@ -1800,7 +1828,7 @@
 		fRef = DA24D9750FD50A4600E04994 /* CCPCharacterTest.m */;
 		name = "CCPCharacterTest.m: 41";
 		rLen = 0;
-		rLoc = 1728;
+		rLoc = 1240;
 		rType = 0;
 		vrLen = 1092;
 		vrLoc = 542;
@@ -1810,7 +1838,7 @@
 		fRef = DA24D96C0FD504A400E04994 /* CCPCharacterResultDelegate.m */;
 		name = "CCPCharacterResultDelegate.m: 59";
 		rLen = 0;
-		rLoc = 2216;
+		rLoc = 1839;
 		rType = 0;
 		vrLen = 1236;
 		vrLoc = 1290;
@@ -1820,7 +1848,7 @@
 		fRef = DA24D9750FD50A4600E04994 /* CCPCharacterTest.m */;
 		name = "CCPCharacterTest.m: 40";
 		rLen = 0;
-		rLoc = 1704;
+		rLoc = 1237;
 		rType = 0;
 		vrLen = 1288;
 		vrLoc = 212;
@@ -1830,7 +1858,7 @@
 		fRef = DA24D96B0FD504A400E04994 /* CCPCharacterResultDelegate.h */;
 		name = "CCPCharacterResultDelegate.h: 13";
 		rLen = 0;
-		rLoc = 413;
+		rLoc = 346;
 		rType = 0;
 		vrLen = 915;
 		vrLoc = 0;
@@ -1840,7 +1868,7 @@
 		fRef = DA24D96C0FD504A400E04994 /* CCPCharacterResultDelegate.m */;
 		name = "CCPCharacterResultDelegate.m: 66";
 		rLen = 0;
-		rLoc = 2216;
+		rLoc = 1839;
 		rType = 0;
 		vrLen = 1153;
 		vrLoc = 1510;
@@ -1850,7 +1878,7 @@
 		fRef = DA24D9750FD50A4600E04994 /* CCPCharacterTest.m */;
 		name = "CCPCharacterTest.m: 41";
 		rLen = 0;
-		rLoc = 1741;
+		rLoc = 1240;
 		rType = 0;
 		vrLen = 1523;
 		vrLoc = 249;
@@ -1860,7 +1888,7 @@
 		fRef = DA24D96C0FD504A400E04994 /* CCPCharacterResultDelegate.m */;
 		name = "CCPCharacterResultDelegate.m: 54";
 		rLen = 0;
-		rLoc = 1546;
+		rLoc = 1179;
 		rType = 0;
 		vrLen = 691;
 		vrLoc = 0;
@@ -1914,7 +1942,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 28";
 		rLen = 0;
-		rLoc = 2040;
+		rLoc = 2867;
 		rType = 0;
 		vrLen = 761;
 		vrLoc = 181;
@@ -1924,7 +1952,7 @@
 		fRef = DA02F4BD0FCA726900A06490 /* CCPCharacter.h */;
 		name = "CCPCharacter.h: 17";
 		rLen = 0;
-		rLoc = 3315;
+		rLoc = 4073;
 		rType = 0;
 		vrLen = 391;
 		vrLoc = 0;
