@@ -10,16 +10,17 @@
  * This other information is provided as a link to that specifc EVE API object
  * and is not precisely under the direct control of CCPCharacter.
  * 
- * Note that by calling the accessor selector you will initiate the API's process
+ * Note that by calling any accessor selector you will initiate the API's process
  * of querying the API server if it does not already have cached information about
  * the character.  If it already has cached information it will use this indefinitely
- * until you clear the cache by using the appropraite selector.
+ * until you clear the cache by using the CCPCharacter::update selector.
  */
 @interface CCPCharacter : NSObject<NSCoding> {
 	int			characterId;		//!< Unique key corresponding to this character.
 	CCPAccount	*acct;				//!< Backward reference to the account which holds this character.
 	
 	NSDate*		lastUpdate;			//!< The time and date on which this character's character sheet was generated.
+	NSDate*		cachedUntil;		//!< The time and date on which this character's character sheet will be regenerated.
 	
 	NSString*	name;				//!< This character's name.
 	NSString*	race;				//!< Which one of the four races this character originates from.
@@ -47,6 +48,7 @@
 @property(readwrite, retain) CCPAccount * acct;
 
 @property(readwrite, retain) NSDate * lastUpdate;
+@property(readwrite, retain) NSDate * cachedUntil;
 
 @property(readwrite, retain) NSString * name;
 @property(readwrite, retain) NSString * race;

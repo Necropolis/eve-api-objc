@@ -42,8 +42,12 @@
 		 */
 		[tempString appendString:@" +0000"];
 		[mutator setLastUpdate:[[NSDate alloc] initWithString:tempString]];
+	} else if([elementName isEqualToString:@"cachedUntil"]) {
+		[tempString appendString:@" +0000"];
+		[mutator setCachedUntil:[[NSDate alloc] initWithString:tempString]];
 	}
-		
+	
+	[self setTempString:nil];
 	
 }
 

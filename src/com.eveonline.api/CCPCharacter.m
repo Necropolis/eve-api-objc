@@ -9,6 +9,7 @@
 @synthesize acct;
 
 @synthesize lastUpdate;
+@synthesize cachedUntil;
 
 @synthesize name;
 @synthesize race;
@@ -43,6 +44,9 @@
 		characterId = [coder decodeIntForKey:@"CCPCharacter_characterId"];
 		acct = [[coder decodeObjectForKey:@"CCPCharacter_acct"] retain];
 		
+		lastUpdate = [[coder decodeObjectForKey:@"CCPCharacter_latestUpdate"] retain];
+		cachedUntil = [[coder decodeObjectForKey:@"CCPCharacter_cachedUntil"] retain];
+		
 		name = [[coder decodeObjectForKey:@"CCPCharacter_name"] retain];
 		race = [[coder decodeObjectForKey:@"CCPCharacter_race"] retain];
 		bloodLine = [[coder decodeObjectForKey:@"CCPCharacter_bloodLine"] retain];
@@ -63,6 +67,9 @@
 	} else {
 		[coder decodeValueOfObjCType:@encode(int) at:&characterId];
 		acct = [[coder decodeObject] retain];
+		
+		lastUpdate = [[coder decodeObject] retain];
+		cachedUntil = [[coder decodeObject] retain];
 		
 		name = [[coder decodeObject] retain];
 		race = [[coder decodeObject] retain];
@@ -170,6 +177,7 @@
 		[coder encodeObject:acct forKey:@"CCPCharacter_acct"];
 		
 		[coder encodeObject:lastUpdate forKey:@"CCPCharacter_lastUpdate"];
+		[coder encodeObject:cachedUntil forKey:@"CCPCharacter_cachedUntil"];
 		
 		[coder encodeObject:name forKey:@"CCPCharacter_name"];
 		[coder encodeObject:race forKey:@"CCPCharacter_race"];
@@ -191,6 +199,9 @@
 	} else {
 		[coder encodeValueOfObjCType:@encode(int) at:&characterId];
 		[coder encodeObject:acct];
+		
+		[coder encodeObject:lastUpdate];
+		[coder encodeObject:cachedUntil];
 		
 		[coder encodeObject:name];
 		[coder encodeObject:race];
@@ -215,6 +226,9 @@
 -(void)dealloc {
 	
 	[acct release];
+	
+	[lastUpdate release];
+	[cachedUntil release];
 	
 	[name release];
 	[race release];

@@ -12,6 +12,20 @@
 
 -(void)setUp;
 
+-(void)testCharacterArchiving;
+
+-(void)archivingTestHelper:(CCPCharacter*)original
+					 keyed:(CCPCharacter*)keyed
+				   unkeyed:(CCPCharacter*)unkeyed
+			   intSelector:(SEL)selector
+			   description:(NSString*)description;
+
+-(void)archivingTestHelper:(CCPCharacter*)original
+					 keyed:(CCPCharacter*)keyed
+				   unkeyed:(CCPCharacter*)unkeyed
+			stringSelector:(SEL)selector
+			   description:(NSString*)description;
+
 -(void)testCharacterSheetRetrieval;
 
 -(void)tearDown;
