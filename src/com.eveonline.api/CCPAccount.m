@@ -18,7 +18,7 @@
 -(id)initWithAcctId:(int)_acctId
 		  ltdApiKey:(NSString*)_ltdApiKey
 		 ultdApiKey:(NSString*)_ultdApiKey {
-	[super init];
+	self = [super init];
 	
 	isParsing = NO;
 	[self setAcctId:_acctId];
@@ -28,7 +28,7 @@
 	return self;
 }
 -(id)initWithCoder:(NSCoder*)coder {
-	[super init];
+	self = [super init];
 	if([coder allowsKeyedCoding]) {
 		acctId = [coder decodeIntForKey:@"CCPAccount_acctId"];
 		ltdApiKey = [[coder decodeObjectForKey:@"CCPAccount_ltdApiKey"] retain];

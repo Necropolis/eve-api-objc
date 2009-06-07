@@ -278,9 +278,9 @@
 	};
 	DA02F4BE0FCA726900A06490 /* CCPCharacter.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {974, 3856}}";
-			sepNavSelRange = "{6290, 0}";
-			sepNavVisRange = "{181, 571}";
+			sepNavIntBoundsRect = "{{0, 0}, {974, 4112}}";
+			sepNavSelRange = "{628, 0}";
+			sepNavVisRange = "{418, 1148}";
 		};
 	};
 	DA02F4C70FCA794800A06490 /* PBXTextBookmark */ = {
@@ -288,7 +288,7 @@
 		fRef = DAB82A9A0FC69BA300F67345 /* CCPAccount.m */;
 		name = "CCPCharacterList.m: 8";
 		rLen = 0;
-		rLoc = 3224;
+		rLoc = 3238;
 		rType = 0;
 		vrLen = 332;
 		vrLoc = 0;
@@ -381,7 +381,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {974, 608}}";
 			sepNavSelRange = "{625, 0}";
-			sepNavVisRange = "{0, 1057}";
+			sepNavVisRange = "{156, 1043}";
 		};
 	};
 	DA2175400FD8D9C8000EF18A /* CCPXMLDelegate.h */ = {
@@ -393,9 +393,9 @@
 	};
 	DA2175410FD8D9C8000EF18A /* CCPXMLDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {880, 880}}";
-			sepNavSelRange = "{275, 0}";
-			sepNavVisRange = "{102, 250}";
+			sepNavIntBoundsRect = "{{0, 0}, {974, 800}}";
+			sepNavSelRange = "{717, 0}";
+			sepNavVisRange = "{260, 536}";
 		};
 	};
 	DA21758B0FD8F716000EF18A /* PBXTextBookmark */ = {
@@ -513,7 +513,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 128";
 		rLen = 0;
-		rLoc = 3950;
+		rLoc = 3964;
 		rType = 0;
 		vrLen = 608;
 		vrLoc = 1643;
@@ -543,7 +543,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 128";
 		rLen = 0;
-		rLoc = 3950;
+		rLoc = 3964;
 		rType = 0;
 		vrLen = 608;
 		vrLoc = 1643;
@@ -583,7 +583,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 205";
 		rLen = 0;
-		rLoc = 6410;
+		rLoc = 6424;
 		rType = 0;
 		vrLen = 530;
 		vrLoc = 82;
@@ -775,7 +775,7 @@
 		rLen = 0;
 		rLoc = 627;
 		rType = 0;
-		vrLen = 911;
+		vrLen = 799;
 		vrLoc = 405;
 	};
 	DA2175B50FD8F716000EF18A /* PBXTextBookmark */ = {
@@ -815,7 +815,7 @@
 		rLen = 0;
 		rLoc = 354;
 		rType = 0;
-		vrLen = 805;
+		vrLen = 797;
 		vrLoc = 407;
 	};
 	DA2175B90FD8F716000EF18A /* PBXTextBookmark */ = {
@@ -835,7 +835,7 @@
 		rLen = 0;
 		rLoc = 354;
 		rType = 0;
-		vrLen = 805;
+		vrLen = 797;
 		vrLoc = 407;
 	};
 	DA2175BB0FD8F716000EF18A /* PBXTextBookmark */ = {
@@ -895,7 +895,7 @@
 		rLen = 0;
 		rLoc = 420;
 		rType = 0;
-		vrLen = 500;
+		vrLen = 444;
 		vrLoc = 0;
 	};
 	DA2175C10FD8F716000EF18A /* PBXTextBookmark */ = {
@@ -915,7 +915,7 @@
 		rLen = 315;
 		rLoc = 122;
 		rType = 0;
-		vrLen = 500;
+		vrLen = 444;
 		vrLoc = 0;
 	};
 	DA2175C30FD8F716000EF18A /* PBXTextBookmark */ = {
@@ -935,7 +935,7 @@
 		rLen = 0;
 		rLoc = 262;
 		rType = 0;
-		vrLen = 559;
+		vrLen = 444;
 		vrLoc = 0;
 	};
 	DA2175C50FD8F716000EF18A /* PBXTextBookmark */ = {
@@ -955,7 +955,7 @@
 		rLen = 0;
 		rLoc = 354;
 		rType = 0;
-		vrLen = 805;
+		vrLen = 799;
 		vrLoc = 405;
 	};
 	DA2175C70FD8F716000EF18A /* PBXTextBookmark */ = {
@@ -985,7 +985,7 @@
 		rLen = 0;
 		rLoc = 153;
 		rType = 0;
-		vrLen = 875;
+		vrLen = 674;
 		vrLoc = 0;
 	};
 	DA2175CA0FD8F716000EF18A /* PBXTextBookmark */ = {
@@ -1055,7 +1055,7 @@
 		rLen = 0;
 		rLoc = 1197;
 		rType = 0;
-		vrLen = 1081;
+		vrLen = 848;
 		vrLoc = 356;
 	};
 	DA2175D10FD8F716000EF18A /* PBXTextBookmark */ = {
@@ -1085,7 +1085,7 @@
 		rLen = 0;
 		rLoc = 625;
 		rType = 0;
-		vrLen = 1077;
+		vrLen = 849;
 		vrLoc = 355;
 	};
 	DA2175D40FD8F716000EF18A /* PBXTextBookmark */ = {
@@ -1165,7 +1165,7 @@
 		rLen = 0;
 		rLoc = 153;
 		rType = 0;
-		vrLen = 875;
+		vrLen = 674;
 		vrLoc = 0;
 	};
 	DA2175DC0FD8F716000EF18A /* PBXTextBookmark */ = {
@@ -1195,7 +1195,7 @@
 		rLen = 0;
 		rLoc = 153;
 		rType = 0;
-		vrLen = 875;
+		vrLen = 674;
 		vrLoc = 0;
 	};
 	DA2175DF0FD8F716000EF18A /* PBXTextBookmark */ = {
@@ -1215,7 +1215,7 @@
 		rLen = 0;
 		rLoc = 153;
 		rType = 0;
-		vrLen = 875;
+		vrLen = 674;
 		vrLoc = 0;
 	};
 	DA2175E10FD8F716000EF18A /* PBXTextBookmark */ = {
@@ -1265,7 +1265,7 @@
 		rLen = 0;
 		rLoc = 153;
 		rType = 0;
-		vrLen = 875;
+		vrLen = 674;
 		vrLoc = 0;
 	};
 	DA2175E60FD8F716000EF18A /* PBXTextBookmark */ = {
@@ -1315,7 +1315,7 @@
 		rLen = 0;
 		rLoc = 502;
 		rType = 0;
-		vrLen = 919;
+		vrLen = 674;
 		vrLoc = 0;
 	};
 	DA2175EB0FD8F716000EF18A /* PBXTextBookmark */ = {
@@ -1365,7 +1365,7 @@
 		rLen = 0;
 		rLoc = 502;
 		rType = 0;
-		vrLen = 919;
+		vrLen = 674;
 		vrLoc = 0;
 	};
 	DA2175F00FD8F716000EF18A /* PBXTextBookmark */ = {
@@ -1385,7 +1385,7 @@
 		rLen = 0;
 		rLoc = 502;
 		rType = 0;
-		vrLen = 919;
+		vrLen = 674;
 		vrLoc = 0;
 	};
 	DA2175F20FD8F716000EF18A /* PBXTextBookmark */ = {
@@ -1393,7 +1393,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 157";
 		rLen = 0;
-		rLoc = 4386;
+		rLoc = 4400;
 		rType = 0;
 		vrLen = 587;
 		vrLoc = 5913;
@@ -1621,15 +1621,15 @@
 	DA24D9650FD5033800E04994 /* CCPCharacterDelegate.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {974, 468}}";
-			sepNavSelRange = "{502, 0}";
+			sepNavSelRange = "{310, 340}";
 			sepNavVisRange = "{0, 674}";
 		};
 	};
 	DA24D9660FD5033800E04994 /* CCPCharacterDelegate.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {974, 992}}";
-			sepNavSelRange = "{1661, 0}";
-			sepNavVisRange = "{625, 1042}";
+			sepNavSelRange = "{1520, 109}";
+			sepNavVisRange = "{625, 1041}";
 		};
 	};
 	DA24D96B0FD504A400E04994 /* CCPCharacterResultDelegate.h */ = {
@@ -1650,14 +1650,14 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {974, 544}}";
 			sepNavSelRange = "{482, 0}";
-			sepNavVisRange = "{64, 677}";
+			sepNavVisRange = "{0, 718}";
 		};
 	};
 	DA24D9750FD50A4600E04994 /* CCPCharacterTest.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {974, 3584}}";
-			sepNavSelRange = "{3093, 0}";
-			sepNavVisRange = "{3527, 1096}";
+			sepNavIntBoundsRect = "{{0, 0}, {880, 3280}}";
+			sepNavSelRange = "{3104, 0}";
+			sepNavVisRange = "{2659, 662}";
 		};
 	};
 	DA24D9CC0FD5234E00E04994 /* PBXTextBookmark */ = {
@@ -1665,7 +1665,7 @@
 		fRef = DAB82A990FC69BA300F67345 /* CCPAccount.h */;
 		name = "CCPAccount.h: 44";
 		rLen = 0;
-		rLoc = 2882;
+		rLoc = 3225;
 		rType = 0;
 		vrLen = 3904;
 		vrLoc = 0;
@@ -1685,7 +1685,7 @@
 		fRef = DAB82A9A0FC69BA300F67345 /* CCPAccount.m */;
 		name = "CCPAccount.m: 46";
 		rLen = 0;
-		rLoc = 1208;
+		rLoc = 1222;
 		rType = 0;
 		vrLen = 837;
 		vrLoc = 2393;
@@ -1815,7 +1815,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 214";
 		rLen = 0;
-		rLoc = 6290;
+		rLoc = 6304;
 		rType = 0;
 		vrLen = 571;
 		vrLoc = 181;
@@ -1995,7 +1995,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 59";
 		rLen = 0;
-		rLoc = 1709;
+		rLoc = 1723;
 		rType = 0;
 		vrLen = 1497;
 		vrLoc = 936;
@@ -2015,7 +2015,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 59";
 		rLen = 0;
-		rLoc = 1709;
+		rLoc = 1723;
 		rType = 0;
 		vrLen = 1133;
 		vrLoc = 419;
@@ -2055,7 +2055,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 214";
 		rLen = 0;
-		rLoc = 6290;
+		rLoc = 6304;
 		rType = 0;
 		vrLen = 571;
 		vrLoc = 181;
@@ -2089,6 +2089,62 @@
 		rType = 0;
 		vrLen = 1096;
 		vrLoc = 3527;
+	};
+	DA3CDC470FDB9DA100DA8E65 /* CCPSkillTree.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {974, 640}}";
+			sepNavSelRange = "{910, 0}";
+			sepNavVisRange = "{135, 794}";
+		};
+	};
+	DA3CDC480FDB9DA100DA8E65 /* CCPSkillTree.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {974, 1504}}";
+			sepNavSelRange = "{411, 0}";
+			sepNavVisRange = "{110, 394}";
+		};
+	};
+	DA3CDC4D0FDBA1BE00DA8E65 /* CCPSkillTreeDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {974, 468}}";
+			sepNavSelRange = "{51, 0}";
+			sepNavVisRange = "{0, 455}";
+		};
+	};
+	DA3CDC4E0FDBA1BE00DA8E65 /* CCPSkillTreeDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {974, 480}}";
+			sepNavSelRange = "{525, 0}";
+			sepNavVisRange = "{0, 853}";
+		};
+	};
+	DA3CDC5B0FDBAE3500DA8E65 /* CCPSkillTreeTest.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {974, 468}}";
+			sepNavSelRange = "{131, 54}";
+			sepNavVisRange = "{0, 192}";
+		};
+	};
+	DA3CDC5C0FDBAE3500DA8E65 /* CCPSkillTreeTest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {974, 468}}";
+			sepNavSelRange = "{473, 0}";
+			sepNavVisRange = "{0, 520}";
+		};
+	};
+	DA3CDC620FDBB09E00DA8E65 /* CCPSkill.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1020, 880}}";
+			sepNavSelRange = "{2154, 0}";
+			sepNavVisRange = "{1120, 1046}";
+		};
+	};
+	DA3CDC630FDBB09E00DA8E65 /* CCPSkill.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {974, 512}}";
+			sepNavSelRange = "{359, 0}";
+			sepNavVisRange = "{0, 363}";
+		};
 	};
 	DA4FC6C30FCFC5CA00335715 /* testAcct */ = {
 		uiCtxt = {
@@ -2139,7 +2195,7 @@
 		fRef = DA02F4BE0FCA726900A06490 /* CCPCharacter.m */;
 		name = "CCPCharacter.m: 28";
 		rLen = 0;
-		rLoc = 3153;
+		rLoc = 3167;
 		rType = 0;
 		vrLen = 761;
 		vrLoc = 181;
@@ -2221,18 +2277,18 @@
 	};
 	DAB82A990FC69BA300F67345 /* CCPAccount.h */ = {
 		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{1, 2834}\";\n            s = 0;\n        },\n                {\n            r = \"{2885, 140}\";\n            s = 0;\n        },\n                {\n            r = \"{3342, 108}\";\n            s = 0;\n        },\n                {\n            r = \"{3512, 149}\";\n            s = 0;\n        },\n                {\n            r = \"{3735, 167}\";\n            s = 0;\n        },\n                {\n            r = \"{4013, 71}\";\n            s = 0;\n        },\n                {\n            r = \"{4124, 384}\";\n            s = 0;\n        },\n                {\n            r = \"{4542, 71}\";\n            s = 0;\n        },\n                {\n            r = \"{4674, 151}\";\n            s = 0;\n        },\n                {\n            r = \"{5021, 151}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 5328}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 880}}";
-			sepNavSelRange = "{49, 0}";
-			sepNavVisRange = "{0, 511}";
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{3228, 140}\";\n            s = 0;\n        },\n                {\n            r = \"{3685, 108}\";\n            s = 0;\n        },\n                {\n            r = \"{3855, 149}\";\n            s = 0;\n        },\n                {\n            r = \"{4078, 167}\";\n            s = 0;\n        },\n                {\n            r = \"{4356, 71}\";\n            s = 0;\n        },\n                {\n            r = \"{4467, 384}\";\n            s = 0;\n        },\n                {\n            r = \"{4885, 71}\";\n            s = 0;\n        },\n                {\n            r = \"{5017, 151}\";\n            s = 0;\n        },\n                {\n            r = \"{5364, 151}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 5671}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {974, 1488}}";
+			sepNavSelRange = "{1468, 0}";
+			sepNavVisRange = "{2941, 704}";
 			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
 		};
 	};
 	DAB82A9A0FC69BA300F67345 /* CCPAccount.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {974, 1824}}";
-			sepNavSelRange = "{1208, 0}";
-			sepNavVisRange = "{2393, 837}";
+			sepNavSelRange = "{444, 0}";
+			sepNavVisRange = "{166, 960}";
 		};
 	};
 	DAB82ACF0FC69F8200F67345 /* PBXTextBookmark */ = {
@@ -2250,7 +2306,7 @@
 		fRef = DAB82A990FC69BA300F67345 /* CCPAccount.h */;
 		name = "CCPCharacterList.h: 6";
 		rLen = 0;
-		rLoc = 3073;
+		rLoc = 3416;
 		rType = 0;
 		vrLen = 250;
 		vrLoc = 0;

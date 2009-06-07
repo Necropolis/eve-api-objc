@@ -31,7 +31,7 @@
 
 -(id)initWithId:(int)_characterId
 		   acct:(CCPAccount*)_acct {
-	[super init];
+	self = [super init];
 	
 	[self setCharacterId:_characterId];
 	[self setAcct:_acct];
@@ -39,7 +39,7 @@
 	return self;
 }
 -(id)initWithCoder:(NSCoder*)coder {
-	[super init];
+	self = [super init];
 	if([coder allowsKeyedCoding]) {
 		characterId = [coder decodeIntForKey:@"CCPCharacter_characterId"];
 		acct = [[coder decodeObjectForKey:@"CCPCharacter_acct"] retain];
