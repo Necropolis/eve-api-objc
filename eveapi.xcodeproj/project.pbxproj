@@ -23,6 +23,12 @@
 		DA24D96D0FD504A400E04994 /* CCPCharacterResultDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DA24D96B0FD504A400E04994 /* CCPCharacterResultDelegate.h */; };
 		DA24D96E0FD504A400E04994 /* CCPCharacterResultDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA24D96C0FD504A400E04994 /* CCPCharacterResultDelegate.m */; };
 		DA24D9760FD50A4600E04994 /* CCPCharacterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DA24D9750FD50A4600E04994 /* CCPCharacterTest.m */; };
+		DA3354A90FE0E3E600067EB9 /* CCPSkillGroupDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DA3354A70FE0E3E600067EB9 /* CCPSkillGroupDelegate.h */; };
+		DA3354AA0FE0E3E600067EB9 /* CCPSkillGroupDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3354A80FE0E3E600067EB9 /* CCPSkillGroupDelegate.m */; };
+		DA3354AD0FE0E6D200067EB9 /* CCPSkillGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = DA3354AB0FE0E6D200067EB9 /* CCPSkillGroup.h */; };
+		DA3354AE0FE0E6D200067EB9 /* CCPSkillGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3354AC0FE0E6D200067EB9 /* CCPSkillGroup.m */; };
+		DA3354B30FE0EB1500067EB9 /* CCPSkillDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DA3354B10FE0EB1500067EB9 /* CCPSkillDelegate.h */; };
+		DA3354B40FE0EB1500067EB9 /* CCPSkillDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3354B20FE0EB1500067EB9 /* CCPSkillDelegate.m */; };
 		DA3CDC490FDB9DA100DA8E65 /* CCPSkillTree.h in Headers */ = {isa = PBXBuildFile; fileRef = DA3CDC470FDB9DA100DA8E65 /* CCPSkillTree.h */; };
 		DA3CDC4A0FDB9DA100DA8E65 /* CCPSkillTree.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3CDC480FDB9DA100DA8E65 /* CCPSkillTree.m */; };
 		DA3CDC4F0FDBA1BE00DA8E65 /* CCPSkillTreeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DA3CDC4D0FDBA1BE00DA8E65 /* CCPSkillTreeDelegate.h */; };
@@ -72,6 +78,12 @@
 		DA24D96C0FD504A400E04994 /* CCPCharacterResultDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPCharacterResultDelegate.m; sourceTree = "<group>"; };
 		DA24D9740FD50A4600E04994 /* CCPCharacterTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPCharacterTest.h; sourceTree = "<group>"; };
 		DA24D9750FD50A4600E04994 /* CCPCharacterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPCharacterTest.m; sourceTree = "<group>"; };
+		DA3354A70FE0E3E600067EB9 /* CCPSkillGroupDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPSkillGroupDelegate.h; sourceTree = "<group>"; };
+		DA3354A80FE0E3E600067EB9 /* CCPSkillGroupDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPSkillGroupDelegate.m; sourceTree = "<group>"; };
+		DA3354AB0FE0E6D200067EB9 /* CCPSkillGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPSkillGroup.h; sourceTree = "<group>"; };
+		DA3354AC0FE0E6D200067EB9 /* CCPSkillGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPSkillGroup.m; sourceTree = "<group>"; };
+		DA3354B10FE0EB1500067EB9 /* CCPSkillDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPSkillDelegate.h; sourceTree = "<group>"; };
+		DA3354B20FE0EB1500067EB9 /* CCPSkillDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPSkillDelegate.m; sourceTree = "<group>"; };
 		DA3CDC470FDB9DA100DA8E65 /* CCPSkillTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPSkillTree.h; sourceTree = "<group>"; };
 		DA3CDC480FDB9DA100DA8E65 /* CCPSkillTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPSkillTree.m; sourceTree = "<group>"; };
 		DA3CDC4D0FDBA1BE00DA8E65 /* CCPSkillTreeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPSkillTreeDelegate.h; sourceTree = "<group>"; };
@@ -164,6 +176,8 @@
 				DA3CDC480FDB9DA100DA8E65 /* CCPSkillTree.m */,
 				DA3CDC620FDBB09E00DA8E65 /* CCPSkill.h */,
 				DA3CDC630FDBB09E00DA8E65 /* CCPSkill.m */,
+				DA3354AB0FE0E6D200067EB9 /* CCPSkillGroup.h */,
+				DA3354AC0FE0E6D200067EB9 /* CCPSkillGroup.m */,
 			);
 			name = com.eveonline.api;
 			path = src/com.eveonline.api;
@@ -224,6 +238,10 @@
 				DA2175410FD8D9C8000EF18A /* CCPXMLDelegate.m */,
 				DA3CDC4D0FDBA1BE00DA8E65 /* CCPSkillTreeDelegate.h */,
 				DA3CDC4E0FDBA1BE00DA8E65 /* CCPSkillTreeDelegate.m */,
+				DA3354A70FE0E3E600067EB9 /* CCPSkillGroupDelegate.h */,
+				DA3354A80FE0E3E600067EB9 /* CCPSkillGroupDelegate.m */,
+				DA3354B10FE0EB1500067EB9 /* CCPSkillDelegate.h */,
+				DA3354B20FE0EB1500067EB9 /* CCPSkillDelegate.m */,
 			);
 			path = internal;
 			sourceTree = "<group>";
@@ -244,6 +262,9 @@
 				DA3CDC490FDB9DA100DA8E65 /* CCPSkillTree.h in Headers */,
 				DA3CDC4F0FDBA1BE00DA8E65 /* CCPSkillTreeDelegate.h in Headers */,
 				DA3CDC640FDBB09E00DA8E65 /* CCPSkill.h in Headers */,
+				DA3354A90FE0E3E600067EB9 /* CCPSkillGroupDelegate.h in Headers */,
+				DA3354AD0FE0E6D200067EB9 /* CCPSkillGroup.h in Headers */,
+				DA3354B30FE0EB1500067EB9 /* CCPSkillDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +392,9 @@
 				DA3CDC4A0FDB9DA100DA8E65 /* CCPSkillTree.m in Sources */,
 				DA3CDC500FDBA1BE00DA8E65 /* CCPSkillTreeDelegate.m in Sources */,
 				DA3CDC650FDBB09E00DA8E65 /* CCPSkill.m in Sources */,
+				DA3354AA0FE0E3E600067EB9 /* CCPSkillGroupDelegate.m in Sources */,
+				DA3354AE0FE0E6D200067EB9 /* CCPSkillGroup.m in Sources */,
+				DA3354B40FE0EB1500067EB9 /* CCPSkillDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

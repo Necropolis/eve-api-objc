@@ -1,11 +1,19 @@
 #import <Cocoa/Cocoa.h>
 
 #import "CCPXMLDelegate.h"
-#import "CCPSkillGroupDelegate.h"
 
-@interface CCPSkillTreeDelegate : CCPXMLDelegate {
-	CCPSkillGroupDelegate *child;
+@class CCPSkill;
+
+@interface CCPSkillDelegate : CCPXMLDelegate {
+	int rowsets;
+	
+	CCPSkill *tempSkill;
 }
+
+@property(readwrite, retain) CCPSkill * tempSkill;
+
+-(id)initWithMutator:(id)_mutator
+			  parent:(id)_parent;
 
 -(void)parser:(NSXMLParser*)parser didStartElement:(NSString *)elementName 
  namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName 

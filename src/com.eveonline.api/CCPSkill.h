@@ -14,6 +14,7 @@
 	 </requiredAttributes>
 	 <rowset name="skillBonusCollection" key="bonusType" columns="bonusType,bonusValue" />
  </row>
+ SkillPointsPerMinute = EffectivePrimaryAttribute+(EffectiveSecondaryAttribute/2)
  */
 /**
  * Represents a skill in EVE Online.  These skills are not relative to any character, and are
@@ -21,7 +22,7 @@
  * of each skill with multiple references to it.  You should never need to create or destroy
  * these skill objects during the course of your application's lifecycle.
  */
-@interface CCPSkill : NSObject {
+@interface CCPSkill : NSObject<NSCoding> {
 	int skillId;				//!< Unique integer identifier for this skill.
 	int groupId;				//!< Unique integer identifying the skill group to which this skill belongs.
 	
@@ -48,6 +49,15 @@
 
 @property(readwrite, retain) NSString * primary;
 @property(readwrite, retain) NSString * secondary;
+
+-(id)initWithCoder:(NSCoder*)coder;
+
+/**
+ * The number of skill points required for the skill to be at atLevel.
+ */
+-(int)skillPoints:(int)atLevel;
+
+-(void)encodeWithCoder:(NSCoder*)coder;
 
 -(void)dealloc;
 

@@ -1,6 +1,8 @@
 #import "CCPSkillTreeTest.h"
 
-#include "CCPSkillTree.h"
+#import "CCPSkillTree.h"
+#import "CCPSkillGroup.h"
+#import "CCPSkill.h"
 
 @implementation CCPSkillTreeTest
 
@@ -16,6 +18,18 @@
 	
 	NSLog(@"SkillTree: Last Update: %@", [[tree lastUpdate] description]);
 	NSLog(@"          Cached Until: %@", [[tree cachedUntil] description]);
+	
+	for(CCPSkillGroup *grp in [tree groups]) {
+		NSLog(@"Skill Group: %@ (%d)",
+			  [grp name],
+			  [grp groupId]);
+		for(CCPSkill *sk in [[tree skillsByGroup] objectForKey:[grp name]]) {
+			NSLog(@"    %@ (%d)",
+				  [sk name],
+				  [sk skillId]);
+		}
+	}
+	
 }
 
 -(void)tearDown {

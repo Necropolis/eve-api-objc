@@ -1,13 +1,21 @@
 #import "CCPSkillTreeDelegate.h"
 
 #import "CCPSkillTree.h"
+#import "CCPSkillTreeDelegate.h"
 
 @implementation CCPSkillTreeDelegate
 
+// <rowset name="skillGroups" key="groupID" columns="groupName,groupID">
 -(void)parser:(NSXMLParser*)parser didStartElement:(NSString *)elementName 
  namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName 
    attributes:(NSDictionary *)attributeDict {
-	
+	if([elementName isEqualToString:@"rowset"]
+	   &&[[attributeDict objectForKey:@"name"] isEqualToString:@"skillGroups"]) {
+		if(!child)
+			child = [[CCPSkillGroupDelegate alloc] initWithMutator:mutator
+															parent:self];
+		[parser setDelegate:child];
+	}
 }
 
 -(void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName 
@@ -24,6 +32,12 @@
 	} else {
 		[self setTempString:nil];
 	}
+}
+
+-(void)dealloc {
+	[child release];
+	
+	[super dealloc];
 }
 
 @end
