@@ -49,7 +49,7 @@
 	[self cleanTempString];
 	
 	if([elementName isEqualToString:@"row"]&&rowsets<1) {
-		[[parent allSkills] addObject:tempSkill];
+		[[parent skills] addObject:tempSkill];
 	} else if([elementName isEqualToString:@"rowset"]) {
 		if(rowsets<1)
 			[parser setDelegate:parent];
